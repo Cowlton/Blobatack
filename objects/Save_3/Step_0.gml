@@ -15,7 +15,7 @@ for (var i = 0; i < _maxpads; i++)
 			global.Switch = true
 			audio_stop_all()
 			
-			room_goto(global.Room)
+			room_goto(global.Room + 1)
 
 			}
 		}
@@ -36,7 +36,7 @@ if keyboard_check_pressed(vk_space){
 			audio_stop_all()
 			global.Switch = true
 			load_game()
-			room_goto(global.Room)
+			room_goto(global.Room + 1)
 
 	}
 }
