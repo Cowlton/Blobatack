@@ -1,0 +1,1 @@
+draw_text(x,y,"Deaths " + string(DFR_num))

@@ -1,0 +1,11 @@
+image_index = 0
+image_speed = 2
+delayTime = 0
+atacking = false
+MyGuy = self;
+attackts = false
+atackfaceingrightkey = false
+atackfaceingleftkey = false
+atackfaceingdowntkey = false
+atackfaceinguptkey = false
+atackkey = false

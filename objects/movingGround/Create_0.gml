@@ -1,0 +1,10 @@
+My_con = 0
+hsp = 0
+vsp = 0
+grv = 2;
+sid = 1
+jumphith = 8;
+canjump = 0;
+canswitch = false
+redy = true
+sensi = 0.5

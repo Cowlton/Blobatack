@@ -1,0 +1,4 @@
+particleNum = 100
+
+
+

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"diolog",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"diolog",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

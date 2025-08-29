@@ -1,0 +1,2 @@
+y = spotY
+x = spotX

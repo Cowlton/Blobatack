@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"move",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":0,
+  "bitRate":8,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.529625,
+  "name":"move",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":48000,
+  "soundFile":"move.wav",
+  "type":0,
+  "volume":0.83,
+}

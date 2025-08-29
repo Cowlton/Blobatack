@@ -1,0 +1,1 @@
+tilemap_get_at_pixel(tiles,mouse_x,mouse_y);

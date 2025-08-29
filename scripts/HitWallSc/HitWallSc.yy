@@ -1,0 +1,16 @@
+{
+  "$GMScript":"v1",
+  "%Name":"HitWallSc",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"HitWallSc",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+  "tags":[
+    "HitWall",
+  ],
+}

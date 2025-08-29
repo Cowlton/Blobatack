@@ -1,0 +1,1 @@
+canportal2 = true
