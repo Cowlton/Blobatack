@@ -15,10 +15,14 @@ if IsSelecded = true{
 }
 
 if keyboard_check_pressed(vk_space){
+	
+	if IsSelecded && cooldown <= 1{
 	cooldown = 2
 	
 	if Pause.pause = false{		
 		delet_check.isVisable = true
+	}
+	
 	}
 }
 	

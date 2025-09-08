@@ -28,15 +28,15 @@ for (var i = 0; i < _maxpads; i++)
 
 if keyboard_check_pressed(vk_space){
 	if IsSelecded{
-global.Switch = true
-global.Load_data = 3
-audio_stop_all()
-load_game()
-room_goto(global.Room +1 )
+		global.Room = 1
+		global.DethAm = 0
+		global.Load_data = 3
+		audio_stop_all()
+		load_game()
+		global.Switch = true
+		room_goto(global.Room + 1)
 
-
-
-}
+	}
 }
 
 if file_exists("save_file_3") {

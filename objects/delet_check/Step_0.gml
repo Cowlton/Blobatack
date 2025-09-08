@@ -34,17 +34,6 @@ if isVisable = true{
 	}
 	
 	
-	if keyboard_check_pressed(vk_space){
-		
-		if salected = 2{
-			DeleteData()
-			isVisable = false
-			}
-			if salected = 1{
-			isVisable = false
-			}
-	
-	}
 	
 	if keyboard_check_pressed(ord("A")) || keyboard_check_pressed(vk_down){
 		cooldown = 20
@@ -61,14 +50,25 @@ if isVisable = true{
 	
 }
 
-if isVisable = false{
+if keyboard_check_pressed(vk_space){
+	cooldown = 20
+		if salected = 2{
+			DeleteData()
+			isVisable = false
+			}
+			if salected = 1{
+			isVisable = false
+			}
+		
+}
+
+if isVisable == false{
 	salected = 1
 	if image_alpha >= 0{
 	image_alpha -= 0.2
 	}
 	
-}
-if isVisable = true{
+}else if isVisable == true{
 	
 	if image_alpha <= 1{
 	image_alpha += 0.2

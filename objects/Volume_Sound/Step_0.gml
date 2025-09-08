@@ -198,6 +198,52 @@ for (var i = 0; i < _maxpads; i++)
 	
 }
 
+if keyboard_check(ord("D")) &&  cooldown <= 1{
+
+		if IsSelecded = true{
+				
+			if Speed <= top_speed{
+				Speed += 1
+			}
+				
+			cooldown = 1
+			faceing = 1
+			if Target_pos <= _end +1{
+			
+			Target_pos += Speed
+			slider_spr = PlayerMoveSide
+			if alarm_off = true{
+			alarm_set(0,2)
+			alarm_off = false
+			}
+			}
+			
+		
+	}
+	
+}
+if keyboard_check(ord("A")) &&  cooldown <= 1{
+	if IsSelecded = true{
+				
+				if Speed <= top_speed{
+					Speed += 1
+				}
+				
+					cooldown = 1
+			if Target_pos >= _begining -1{
+			Target_pos -= Speed
+			faceing =-1
+			slider_spr = PlayerMoveSide
+			if alarm_off = true{
+			alarm_set(0,2)
+			alarm_off = false
+			}
+			}
+			
+			}
+}
+
+
 if IsSelecded = true{
 Slider_out_obj.image_alpha = 1
 

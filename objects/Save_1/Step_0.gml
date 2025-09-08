@@ -32,9 +32,12 @@ for (var i = 0; i < _maxpads; i++)
 
 if keyboard_check_pressed(vk_space){
 	if IsSelecded{
+	
+			global.Load_data = 1
+		
 			global.Room = 1
 			global.DethAm = 0
-			global.Load_data = 1
+			
 			audio_stop_all()
 			global.Switch = true
 			load_game()

@@ -1,6 +1,8 @@
-if (keyboard_check_pressed(vk_anykey)|| gamepad_button_check_pressed(1,gp_face1)){
+
+wait -= 1;
+if (keyboard_check_pressed(vk_anykey) || gamepad_button_check_pressed(global.GamePad,gp_face1)) && wait <= 1{
 	
-	if Started = false{
+	if Started == false{
 	Started = true;
 	instance_destroy(PressStart)
 	audio_play_sound(Scroll_sound,10,false,0.38)

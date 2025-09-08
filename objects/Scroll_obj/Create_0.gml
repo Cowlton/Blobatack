@@ -26,6 +26,8 @@ moveToFinalPos = true;
 Delay = 10
 
 
+wait = 5;
+
 Ydest = y - 120
 
 global.DethTransistion = false
