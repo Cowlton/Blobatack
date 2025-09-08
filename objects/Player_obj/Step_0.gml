@@ -17,19 +17,19 @@ if instance_exists(DebugOBJ)
 	self.y = mouse_y	
 }
 }
-if My_con != 0{
-if (gamepad_is_connected(My_con))
+
+if (gamepad_is_connected(global.GamePad))
 {
-		Key_Right = gamepad_axis_value(My_con, gp_axislh) >= sensi || gamepad_button_check(My_con,gp_padr)
-		Key_Left = gamepad_axis_value(My_con, gp_axislh) <= - sensi|| gamepad_button_check(My_con,gp_padl)
-		Key_Up = gamepad_axis_value(My_con, gp_axislv) <= -sensi || gamepad_button_check(My_con,gp_padu)
-		Key_Down = gamepad_axis_value(My_con, gp_axislv) >= sensi || gamepad_button_check(My_con,gp_padd)
-		atackfaceingrightkey = gamepad_axis_value(My_con, gp_axisrh) >= sensi
-		atackfaceingleftkey = gamepad_axis_value(My_con, gp_axisrh) <= -sensi
+		Key_Right = gamepad_axis_value(global.GamePad, gp_axislh) >= sensi || gamepad_button_check(global.GamePad,gp_padr)
+		Key_Left = gamepad_axis_value(global.GamePad, gp_axislh) <= - sensi|| gamepad_button_check(global.GamePad,gp_padl)
+		Key_Up = gamepad_axis_value(global.GamePad, gp_axislv) <= -sensi || gamepad_button_check(global.GamePad,gp_padu)
+		Key_Down = gamepad_axis_value(global.GamePad, gp_axislv) >= sensi || gamepad_button_check(global.GamePad,gp_padd)
+		atackfaceingrightkey = gamepad_axis_value(global.GamePad, gp_axisrh) >= sensi
+		atackfaceingleftkey = gamepad_axis_value(global.GamePad, gp_axisrh) <= -sensi
 		
         // do stuff with pad "i"
 }
-}
+
 
 
 if !instance_exists(CantAme){ 

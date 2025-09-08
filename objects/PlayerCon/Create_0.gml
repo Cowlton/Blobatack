@@ -6,3 +6,5 @@ GP2 = 0
 
 Chose = false
 last = 0
+
+global.GamePad = -1;

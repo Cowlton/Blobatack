@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Grass2",
-    "path":"sprites/Grass2/Grass2.yy",
+    "name":"Grass_sp",
+    "path":"sprites/Grass_sp/Grass_sp.yy",
   },
   "spriteMaskId":null,
   "visible":true,

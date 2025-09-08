@@ -5,35 +5,32 @@
 
 // Geting the Controler and takeing imput
 
-var _maxpads = gamepad_get_device_count();
-for (var i = 0; i < _maxpads; i++)
-{
-    if (gamepad_is_connected(i))
-    {
+
+ if (gamepad_is_connected(global.GamePad))
+ {
 		
-		if pause = true{
-			cooldown -= 1
-			
-		if gamepad_axis_value(i,gp_axislv) >= 0.7  && cooldown <= 1{
+	if pause = true{
+		cooldown -= 1
+		
+		if gamepad_axis_value(global.GamePad,gp_axislv) >= 0.7  && cooldown <= 1{
 			chosen.IsSelecded = false
 			Pres += 1
 			cooldown = 20
-		}else if gamepad_axis_value(i,gp_axislv) <= -0.7  && cooldown <= 1{
+		}else if gamepad_axis_value(global.GamePad,gp_axislv) <= -0.7  && cooldown <= 1{
 			chosen.IsSelecded = false
 			Pres -= 1
 			cooldown = 20
 		
-		}else if !gamepad_axis_value(i,gp_axislv) >= 0.7 && !gamepad_axis_value(i,gp_axislv) <= -0.7  {
+		}else if !gamepad_axis_value(global.GamePad,gp_axislv) >= 0.7 && !gamepad_axis_value(i,gp_axislv) <= -0.7  {
 			cooldown = 0
 		}
 		
-		
-		}
+	}
 
 
 // pausing stuff
 
-if gamepad_button_check_pressed(i,gp_face1) && !instance_exists(StopFromPausing){
+if gamepad_button_check_pressed(global.GamePad,gp_face1) && !instance_exists(StopFromPausing){
 
 if pause = true && canSwitch = true{
 				pause = false
@@ -62,7 +59,7 @@ if pause = true && canSwitch = true{
 	
 
 
-		if gamepad_button_check_pressed(i,gp_start) && !instance_exists(StopFromPausing) {
+		if gamepad_button_check_pressed(global.GamePad,gp_start) && !instance_exists(StopFromPausing) {
 	
 	
 			if pause = true && canSwitch = true{
@@ -112,11 +109,11 @@ if pause = true && canSwitch = true{
 			}
 		}
 		
-		if gamepad_button_check_released(i,gp_start) || gamepad_button_check_pressed(i,gp_face1) {
+		if gamepad_button_check_released(global.GamePad,gp_start) || gamepad_button_check_pressed(global.GamePad,gp_face1) {
 			canSwitch = true
 		}
-	}
 }
+
 if (keyboard_check_pressed(ord("P"))) && !instance_exists(StopFromPausing){
 	
 	

@@ -39,6 +39,7 @@ if gamepad_is_connected(GamePad1){
 		if  GP1 == 0{
 			GP1 = GamePad1
 		}
+		global.GamePad = GP1
 	}
 	
 }
@@ -54,13 +55,12 @@ if gamepad_is_connected(GamePad2){
 		if GP1 == 0{
 			GP1 = GamePad2
 		}
+		global.GamePad = GP1;
 	}
 	
 }
 
 if Chose = true{
-	
-	
 	
 		window_mouse_set_locked(true)
 	

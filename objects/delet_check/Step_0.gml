@@ -1,12 +1,11 @@
-var _maxpads = gamepad_get_device_count();
-for (var i = 0; i < _maxpads; i++)
-{
-    if (gamepad_is_connected(i))
+if isVisable = true{
+	
+		cooldown -= 1
+	
+    if (gamepad_is_connected(global.GamePad))
     {
 		
-		if isVisable = true{
-		cooldown -= 1
-		if gamepad_button_check_pressed(i,gp_face2) {
+		if gamepad_button_check_pressed(global.GamePad,gp_face2) {
 			if salected = 2{
 			DeleteData()
 			isVisable = false
@@ -16,24 +15,49 @@ for (var i = 0; i < _maxpads; i++)
 			}
 			
 		}
-		if gamepad_axis_value(i,gp_axislh) <= -0.7 && cooldown <= 1{
+		if gamepad_axis_value(global.GamePad,gp_axislh) <= -0.7 && cooldown <= 1{// left?
 			cooldown = 20
 			if salected <= 1{
 			salected += 1
 			}
-		}else if gamepad_axis_value(i,gp_axislh) >= 0.7 && cooldown <= 1{
+		}else if gamepad_axis_value(global.GamePad,gp_axislh) >= 0.7 && cooldown <= 1{//Right?
 			cooldown = 20
 			if salected >= 2{
 			salected -= 1
 			}
-		}else if !gamepad_axis_value(i,gp_axislh) <= -0.7 && !gamepad_axis_value(i,gp_axislh) >= 0.7{
+		}else if !gamepad_axis_value(global.GamePad,gp_axislh) <= -0.7 && !gamepad_axis_value(global.GamePad,gp_axislh) >= 0.7{
 			cooldown = 0
 			
 		}
-		}
+		
 		
 	}
 	
+	
+	if keyboard_check_pressed(vk_space){
+		
+		if salected = 2{
+			DeleteData()
+			isVisable = false
+			}
+			if salected = 1{
+			isVisable = false
+			}
+	
+	}
+	
+	if keyboard_check_pressed(ord("A")) || keyboard_check_pressed(vk_down){
+		cooldown = 20
+			if salected <= 1{
+			salected += 1
+			}
+	}else if keyboard_check_pressed(ord("D")) || keyboard_check_pressed(vk_up){
+		cooldown = 20
+			if salected >= 2{
+			salected -= 1
+			}
+	}
+
 	
 }
 
