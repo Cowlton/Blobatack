@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.681769,
+  "duration":0.6817687,
   "name":"KillGoast",
   "parent":{
     "name":"Sounds",

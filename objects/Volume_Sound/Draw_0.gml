@@ -1,5 +1,7 @@
 //draw_self()
 draw_sprite_ext(slider_spr,image_index,Slider_pos,y,faceing,1,0,c_white,1);
+draw_sprite_ext(sowrd_spr,sowrd_index,Slider_pos,y,faceing,1,0,c_white,1);
+
 draw_set_font(Deth)
 
 var text = "Sound effects:" + string(global.Volume_num) + "%";
@@ -10,4 +12,3 @@ var x_centered = x - text_width / 2;
 
 // Draw the centered text
 draw_text(x_centered, y- ofset, text);
-

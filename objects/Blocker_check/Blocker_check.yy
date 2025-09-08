@@ -32,5 +32,5 @@
     "path":"sprites/Check_sp/Check_sp.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

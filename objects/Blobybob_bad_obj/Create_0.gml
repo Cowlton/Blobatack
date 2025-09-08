@@ -13,3 +13,6 @@ canShake = true;
 
 sensi = 0.5
 
+OnOff = OnAndOffBlock_obj;
+oneWay = onewayDOWN
+groundObjects = [ground_ob,Blobybob_bad_obj,blobytheglob_obj, movingGround, onewayLT, lazzer_ob, Sheald_obj, oneWay, OnOff, Spike_obj]

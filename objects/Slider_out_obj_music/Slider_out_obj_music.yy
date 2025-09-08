@@ -6,8 +6,8 @@
   "name":"Slider_out_obj_music",
   "overriddenProperties":[],
   "parent":{
-    "name":"Settings",
-    "path":"folders/Objects/Save_stuff/Settings.yy",
+    "name":"Blobatack",
+    "path":"Blobatack.yyp",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -35,7 +35,8 @@ load_game()
 room_goto(global.Room +1 )
 
 
-			}
+
+}
 }
 
 if file_exists("save_file_2") {
@@ -57,5 +58,6 @@ if file_exists("save_file_2") {
 	Level_Text = ("Level:" + string(Room))
 	Deth_Text = ("Deaths:" + string(Deths))
 }
+
 
 

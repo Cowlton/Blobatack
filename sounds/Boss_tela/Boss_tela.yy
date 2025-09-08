@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.375896,
+  "duration":0.37589568,
   "name":"Boss_tela",
   "parent":{
     "name":"Sounds",

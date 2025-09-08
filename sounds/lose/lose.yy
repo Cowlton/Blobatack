@@ -9,7 +9,7 @@
   "bitRate":8,
   "compression":0,
   "conversionMode":0,
-  "duration":0.895533,
+  "duration":0.8955329,
   "name":"lose",
   "parent":{
     "name":"Sounds",

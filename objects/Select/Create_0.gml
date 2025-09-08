@@ -2,7 +2,7 @@ offset = 250
 Bspeed = 10
 
 
-volume = Volume
+volume = 100
 erase = EraseProgress
 
 
@@ -11,6 +11,9 @@ erase = EraseProgress
 back = instance_create_layer(x,y -offset ,layer, PauseBACK)
 
 cooldown = 0
+
+
+load = "Save One"
 
 
 pause = false

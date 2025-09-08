@@ -1,9 +1,5 @@
 
-Rightkey = keyboard_check(ord("D"))
-Leftkey = keyboard_check(ord("A"))
-
-
-
+atackkey = keyboard_check_pressed(vk_space)
 
 if Slider_pos != Target_pos{
 	
@@ -22,6 +18,7 @@ if Slider_pos != Target_pos{
 			}else{
 			if dragging = false{
 				slider_spr = Blobybob_spr
+				
 			}
 				Slider_pos = Target_pos 
 			}
@@ -39,6 +36,7 @@ if Slider_pos != Target_pos{
 			}else{
 			if dragging = false{
 				slider_spr = Blobybob_spr
+				
 			}
 				Slider_pos = Target_pos 
 			}
@@ -47,10 +45,9 @@ if Slider_pos != Target_pos{
 	}
 	
 }else{
-
 	if dragging = false{
-		
 	slider_spr = Blobybob_spr
+	
 	}
 
 	Sli_speed = slider_TopSpeed
@@ -85,7 +82,7 @@ Sli_speed = slider_TopSpeed
 
 slider_spr = PlayerMoveSide
 
-/*
+
 if mouse_x >= Slider_pos{
 	
 	faceing = 1
@@ -94,7 +91,7 @@ if mouse_x >= Slider_pos{
 if mouse_x <= Slider_pos{
 	
 	faceing = -1
-}*/
+}
 }
 	
 var _langth = image_xscale
@@ -146,7 +143,10 @@ for (var i = 0; i < _maxpads; i++)
     if (gamepad_is_connected(i))
     {
 		
-	
+		cooldown -= 1
+		
+		atackkey = gamepad_button_check_pressed(i,gp_shoulderrb)
+		
 		
 		if gamepad_axis_value(i,gp_axislh) >= 0.7 && cooldown <= 1{
 			if IsSelecded = true{
@@ -198,57 +198,30 @@ for (var i = 0; i < _maxpads; i++)
 	
 }
 
-			if Rightkey && cooldown <= 1{
-			if IsSelecded = true{
-				
-				if Speed <= top_speed{
-					Speed += 1
-				}
-				
-			cooldown = 1
-			faceing = 1
-			if Target_pos <= _end +1{
-			
-			Target_pos += Speed
-			slider_spr = PlayerMoveSide
-			if alarm_off = true{
-			alarm_set(0,2)
-			alarm_off = false
-			}
-			}
-			
-		
-			}
-			
-		}else if Leftkey && cooldown <= 1{
-			if IsSelecded = true{
-				
-				if Speed <= top_speed{
-					Speed += 1
-				}
-				
-					cooldown = 1
-			if Target_pos >= _begining -1{
-			Target_pos -= Speed
-			faceing =-1
-			slider_spr = PlayerMoveSide
-			if alarm_off = true{
-			alarm_set(0,2)
-			alarm_off = false
-			}
-			}
-			
-			}
-		}else{
-			cooldown = 0
-			Speed = Min_speed
-		}
-
-	
-	
-
 if IsSelecded = true{
 Slider_out_obj.image_alpha = 1
+
+
+if (atackkey){
+	if (attacking == false){
+	attacking = true;
+	sowrd_spr = sord_starter_hit_right_spr;
+	audio_play_sound(attack,20,false)
+	}
+	
+}
+if (attacking){
+	
+	if (sowrd_index <= 5){
+
+	sowrd_index+= 0.4
+	}else{
+	sowrd_index = 0
+	sowrd_spr = sord_start_right
+	attacking = false
+	}
+}
+
 
 
 }else{

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.598617,
+  "duration":1.5986168,
   "name":"Boss_deth",
   "parent":{
     "name":"Sounds",

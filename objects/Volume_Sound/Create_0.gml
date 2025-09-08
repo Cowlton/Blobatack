@@ -1,6 +1,10 @@
 Slider_spr = Slider
 
 slider_spr = Blobybob_spr
+sowrd_spr = sord_start_right
+
+sowrd_index = 0;
+
 faceing = 1
 
 Slider_pos = x
@@ -12,14 +16,13 @@ slider_TopSpeed = 0.1
 ofset = 100
 
 
-
 var _langth = image_xscale
 
 var _begining = x - _langth / 2
 
 var _end = x + _langth / 2
 
-
+attacking = false;
 
 
 // Ensure the start_x is less than end_x for correct calculations
@@ -39,7 +42,7 @@ var normalized_position = (x_value - _begining) / (_end - _begining);
 // Convert the normalized position to a percentage between 0 and 100
 var percentage_position = clamp(normalized_position * 100, 0, 100);
 
-global.Volume_num = percentage_position 
+global.Volume_music = percentage_position 
 
 speed_min = 1
 Sli_speed = slider_TopSpeed

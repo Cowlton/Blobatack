@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.566259,
+  "duration":0.5662585,
   "name":"kill",
   "parent":{
     "name":"Sounds",

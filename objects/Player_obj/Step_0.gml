@@ -8,6 +8,7 @@ Key_Up = keyboard_check(ord("W"))
 Key_Down = keyboard_check(ord("S")) 
 
 if redy{
+	
 if mouse_check_button(2)
 {
 if instance_exists(DebugOBJ)
@@ -395,19 +396,15 @@ hsp -= grv;
 }
 if canMove = true{
 if Key_Right && canswitch = true{
-	groundObjects = [ground_ob, movingGround, lazzer_ob, onewayRT, OnOff, Spike_obj]
-	
-	
+	oneWay = onewayRT
 	sid = 4
-
 	canport2 = true
-	
 	/*if instance_exists(bossfirtEn){
 		with bossfirtEn step +=1
 	}*/
 }
 if Key_Up && canswitch = true{
-	groundObjects = [ground_ob, movingGround, lazzer_ob, onewayUP, OnOff, Spike_obj]
+	oneWay = onewayUP
 	
 	sid = 2
 
@@ -418,7 +415,7 @@ if Key_Up && canswitch = true{
 
 }
 if Key_Down && canswitch = true{
-	groundObjects = [ground_ob, movingGround, lazzer_ob, onewayDOWN, OnOff, Spike_obj]
+	oneWay = onewayDOWN
 	sid = 1
 	
 	canport2 = true
@@ -427,7 +424,7 @@ if Key_Down && canswitch = true{
 	}*/
 }
 if Key_Left && canswitch = true{
-	groundObjects = [ground_ob, movingGround, lazzer_ob, onewayLT, OnOff, Spike_obj]
+	oneWay = onewayLT
 	sid = 3
 
 	canport2 = true
@@ -436,6 +433,8 @@ if Key_Left && canswitch = true{
 	}*/
 
 }
+
+groundObjects = [ground_ob, movingGround, lazzer_ob, oneWay, OnOff, Spike_obj]
 }
 /*if redy = false{
 	

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.152,
+  "duration":1.1520182,
   "name":"Scroll_sound",
   "parent":{
     "name":"Sounds",

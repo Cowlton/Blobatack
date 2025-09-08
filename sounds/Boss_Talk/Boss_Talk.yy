@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.066757,
+  "duration":0.066757366,
   "name":"Boss_Talk",
   "parent":{
     "name":"Sounds",

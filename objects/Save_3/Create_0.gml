@@ -1,10 +1,9 @@
-image_speed = 0
-
 
 IsSelecded = false
 
+Name = "Save Three"
 
-Levle_offset = 400
+Levle_offset = 350
 Spaceing_offset = 40
 
 
@@ -27,5 +26,4 @@ if file_exists("save_file_3") {
 	Level_Text = ("Levle: " + string(Room))
 	Deth_Text = ("Deaths: " + string(Deths))
 }
-
 

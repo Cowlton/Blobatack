@@ -15,7 +15,6 @@ var _struct =
 	var _string = json_stringify(_struct);
 if global.Load_data = 1{
 var _file = file_text_open_write("save_file_1");
-
 }
 if global.Load_data = 2{
 var _file = file_text_open_write("save_file_2");
@@ -117,6 +116,10 @@ function DeleteData(){
 	instance_create_layer(x,y,layer,o_transition_Deth)
 	
 	if file_exists("save_file_1") || file_exists("save_file_2") || file_exists("save_file_3"){
+		
+		global.DethAm = 0
+		global.Room = 1
+		
 		if global.Load_data = 1{
 		file_delete("save_file_1")
 		}
@@ -126,8 +129,7 @@ function DeleteData(){
 		if global.Load_data = 3{
 		file_delete("save_file_3")
 		}
-		global.DethAm = 0
-		global.Room = 1
+		
 		
 	}
 	

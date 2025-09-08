@@ -9,10 +9,12 @@ if !instance_exists(o_transition)
 	var angle = (364 / particleNum) * i;
 	NEWParticle.Angle = angle;
 	}
-	
+	if room != RandomeGenRoom{
 	if room >= global.Room{
+		
 	global.DethAm += 1;
 	DFR.DFR_num += 1;
+	}
 	}
 }
 

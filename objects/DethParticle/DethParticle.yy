@@ -10,8 +10,8 @@
   "name":"DethParticle",
   "overriddenProperties":[],
   "parent":{
-    "name":"Pause_stuff",
-    "path":"folders/Objects/Pause_stuff.yy",
+    "name":"Particle Systems",
+    "path":"folders/Objects/Particle Systems.yy",
   },
   "parentObjectId":null,
   "persistent":false,

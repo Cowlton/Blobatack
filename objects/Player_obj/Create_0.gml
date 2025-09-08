@@ -26,5 +26,6 @@ OnOff = OnAndOffBlock_obj;
 
 particleNum = 8;
 
+oneWay = onewayDOWN
 
-groundObjects = [ground_ob, movingGround, lazzer_ob, onewayDOWN, OnOff, Spike_obj]
+groundObjects = [ground_ob, movingGround, lazzer_ob, oneWay, OnOff, Spike_obj]

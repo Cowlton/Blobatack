@@ -1,9 +1,8 @@
 draw_self()
 draw_set_font(LEVEL)
 draw_set_color(c_green)
-draw_text(x - Levle_offset ,y - 80,"Save: 3")
+draw_text(x - Levle_offset ,y - 80,"Save: 1")
 draw_set_font(Deth)
-
 
 var text_width = string_width(Level_Text);
 var x_centered = x - text_width / 2;

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.509433,
+  "duration":0.5094331,
   "name":"BossHITsound",
   "parent":{
     "name":"Sounds",

@@ -46,9 +46,6 @@ if keyboard_check_pressed(ord("W")) || keyboard_check_pressed(vk_up){
 // Controlling UI
 if Pause.pause = false{
 
-	
-
-
 
 	if Pres >= array_length_1d(UIelements){
 	 Pres = 0
@@ -58,6 +55,8 @@ if Pause.pause = false{
 	}
 	chosen = UIelements[Pres]
 	chosen.IsSelecded = true
+	load = UIelements[Pres].Name;
+	
 }
 	
 

@@ -39,5 +39,5 @@
     "name":"Sprite48",
     "path":"sprites/Sprite48/Sprite48.yy",
   },
-  "visible":true,
+  "visible":false,
 }

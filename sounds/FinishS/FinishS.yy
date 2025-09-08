@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.115215,
+  "duration":1.1152154,
   "name":"FinishS",
   "parent":{
     "name":"Sounds",

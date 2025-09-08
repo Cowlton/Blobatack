@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.17229,
+  "duration":0.17229025,
   "name":"Portal_s",
   "parent":{
     "name":"Sounds",

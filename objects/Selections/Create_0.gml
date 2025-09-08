@@ -2,7 +2,7 @@ offset = 250
 Bspeed = 10
 
 
-volume = Volume
+volume = Volume_Sound
 erase = EraseProgress
 music = Volume_Music
 
