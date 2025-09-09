@@ -145,7 +145,7 @@ for (var i = 0; i < _maxpads; i++)
 		
 		cooldown -= 1
 		
-		atackkey = gamepad_button_check_pressed(i,gp_shoulderrb)
+		atackkey = gamepad_button_check_pressed(i,gp_shoulderrb) || keyboard_check_pressed(vk_space);
 		
 		
 		if gamepad_axis_value(i,gp_axislh) >= 0.7 && cooldown <= 1{

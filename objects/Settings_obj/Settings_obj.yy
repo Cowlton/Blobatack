@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Settings",
-    "path":"sprites/Settings/Settings.yy",
+    "name":"Settings_sp",
+    "path":"sprites/Settings_sp/Settings_sp.yy",
   },
   "spriteMaskId":null,
   "visible":true,
