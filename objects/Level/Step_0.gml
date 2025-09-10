@@ -5,7 +5,7 @@ for (var i = 0; i < _maxpads; i++)
 {
     if (gamepad_is_connected(i))
     {
-		cooldown -= 1
+		
 		if gamepad_button_check_pressed(i,gp_face2) {
 			audio_stop_sound(Menue)
 			
@@ -31,10 +31,11 @@ for (var i = 0; i < _maxpads; i++)
 	
 }
 
+cooldown -= 1
+
 if keyboard_check(ord("D")) && cooldown <= 1 || keyboard_key_press(vk_right) && cooldown <= 1{
 		cooldown = 10
 		
-		show_debug_message("DDDD")
 			if Text <= MAX -1{
 			Text += 1
 			}

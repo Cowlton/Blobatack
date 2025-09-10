@@ -14,6 +14,8 @@ cooldown = 0
 
 
 load = "Save One"
+Deths = "Dethes"
+Levels = "Level"
 
 
 pause = false

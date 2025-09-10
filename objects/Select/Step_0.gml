@@ -54,6 +54,8 @@ if Pause.pause = false{
 	chosen = UIelements[Pres]
 	chosen.IsSelecded = true
 	load = UIelements[Pres].Name;
+	Deths = UIelements[Pres].Deth_Text;
+	Levels = UIelements[Pres].Level_Text;
 	
 }
 	
