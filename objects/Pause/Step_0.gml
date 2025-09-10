@@ -21,7 +21,7 @@
 			Pres -= 1
 			cooldown = 20
 		
-		}else if !gamepad_axis_value(global.GamePad,gp_axislv) >= 0.7 && !gamepad_axis_value(i,gp_axislv) <= -0.7  {
+		}else if !gamepad_axis_value(global.GamePad,gp_axislv) >= 0.7 && !gamepad_axis_value(global.GamePad,gp_axislv) <= -0.7  {
 			cooldown = 0
 		}
 		

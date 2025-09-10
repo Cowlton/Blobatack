@@ -295,3 +295,10 @@ if instance_exists(o_transition) or instance_exists(o_transition_Deth)
 {
 	canMove = false
 }
+
+
+if On = true && !place_meeting(x,y,OnAndOffBlock_obj){
+	OnOff = OnAndOffBlock_obj;
+}else{
+	OnOff = ground_ob
+}
