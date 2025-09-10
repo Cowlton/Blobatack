@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"Sprite1342",
-    "path":"sprites/Sprite1342/Sprite1342.yy",
+    "name":"GrasyGround_spr2",
+    "path":"sprites/GrasyGround_spr2/GrasyGround_spr2.yy",
   },
   "spriteNoExport":true,
   "textureGroupId":{

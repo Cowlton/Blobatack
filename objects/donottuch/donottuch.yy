@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite14",
-    "path":"sprites/Sprite14/Sprite14.yy",
+    "name":"xbox_spr",
+    "path":"sprites/xbox_spr/xbox_spr.yy",
   },
   "spriteMaskId":null,
   "visible":true,
