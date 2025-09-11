@@ -322,6 +322,7 @@
     {"name":"Partical_1","order":38,"path":"sprites/Partical_1/Partical_1.yy",},
     {"name":"Partical","order":37,"path":"sprites/Partical/Partical.yy",},
     {"name":"pixle","order":97,"path":"sprites/pixle/pixle.yy",},
+    {"name":"Play","order":108,"path":"sprites/Play/Play.yy",},
     {"name":"PlayerMoveSide","order":3,"path":"sprites/PlayerMoveSide/PlayerMoveSide.yy",},
     {"name":"PlayerMoveUP","order":4,"path":"sprites/PlayerMoveUP/PlayerMoveUP.yy",},
     {"name":"PlayerSideways","order":7,"path":"sprites/PlayerSideways/PlayerSideways.yy",},

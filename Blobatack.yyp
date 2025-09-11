@@ -368,6 +368,7 @@
     {"id":{"name":"Partical_1","path":"sprites/Partical_1/Partical_1.yy",},},
     {"id":{"name":"Partical","path":"sprites/Partical/Partical.yy",},},
     {"id":{"name":"pixle","path":"sprites/pixle/pixle.yy",},},
+    {"id":{"name":"Play","path":"sprites/Play/Play.yy",},},
     {"id":{"name":"PlayerMoveSide","path":"sprites/PlayerMoveSide/PlayerMoveSide.yy",},},
     {"id":{"name":"PlayerMoveUP","path":"sprites/PlayerMoveUP/PlayerMoveUP.yy",},},
     {"id":{"name":"PlayerSideways","path":"sprites/PlayerSideways/PlayerSideways.yy",},},
