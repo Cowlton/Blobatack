@@ -1,8 +1,4 @@
 
-
-
-
-
 // Geting the Controler and takeing imput
 
 

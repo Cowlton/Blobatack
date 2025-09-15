@@ -20,6 +20,6 @@
   "resourceVersion":"2.0",
   "sampleRate":5512,
   "soundFile":"attack.wav",
-  "type":2,
+  "type":0,
   "volume":0.33,
 }
