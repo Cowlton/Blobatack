@@ -11,10 +11,9 @@ for (var i = 0; i < _maxpads; i++)
 			global.Room = 1
 			global.DethAm = 0
 			global.Load_data = 3
-			audio_stop_all()
 			load_game()
-			global.Switch = true
-			room_goto(global.Room + 1)
+			Select.UIint = 2;
+			IsSelecded = false;
 
 			}
 		}
@@ -31,13 +30,26 @@ if keyboard_check_pressed(vk_space){
 		global.Room = 1
 		global.DethAm = 0
 		global.Load_data = 3
-		audio_stop_all()
 		load_game()
-		global.Switch = true
-		room_goto(global.Room + 1)
-
+		Select.UIint = 2;
+		IsSelecded = false;
 	}
 }
+
+if keyboard_check_pressed(ord("D")){
+		if IsSelecded{
+			
+			global.Room = 1
+			global.DethAm = 0
+			global.Load_data = 3
+			load_game()
+			Select.UIint = 2;
+			IsSelecded = false;
+
+		}		
+
+}
+
 
 if file_exists("save_file_3") {
 	var _file = file_text_open_read("save_file_3");

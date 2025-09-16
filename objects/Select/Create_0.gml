@@ -22,4 +22,10 @@ pause = false
 canSwitch = true
 chosen = volume
 UIelements = [Save_1,Save_2,Save_3];
+
+UIelements2 = [Play_obj, EraseProgress];
+
+UIint = 1;
+
 Pres = 0
+Pres2 = 0

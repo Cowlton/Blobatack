@@ -1,5 +1,5 @@
 
-draw_set_font(Deth)
+draw_set_font(Deth_font)
 
 var text_width = string_width(Select.load);
 var x_centered = x - text_width / 2;

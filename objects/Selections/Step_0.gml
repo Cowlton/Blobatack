@@ -4,7 +4,7 @@
 	
 if (gamepad_is_connected(global.GamePad))
 {
-		if Pause.pause = false && delet_check.isVisable = false{
+		if Pause.pause = false{
 		cooldown -= 1
 			
 		if gamepad_axis_value(global.GamePad,gp_axislv) >= 0.7  && cooldown <= 1{
@@ -38,7 +38,7 @@ if keyboard_check_pressed(ord("W")) || keyboard_check_pressed(vk_up){
 
 
 // Controlling UI
-if Pause.pause = false && delet_check.isVisable = false{
+if Pause.pause = false{
 
 	if Pres >= array_length_1d(UIelements){
 	 Pres = 0

@@ -21,8 +21,17 @@ if keyboard_check_pressed(vk_space){
 	
 	if Pause.pause = false{		
 		delet_check.isVisable = true
+		
 	}
 	
+	}
+}
+
+
+if keyboard_check_pressed(ord("A")){
+	if (delet_check.isVisable = false){
+		Select.UIint = 1;
+		IsSelecded = false
 	}
 }
 	

@@ -9,7 +9,7 @@ Target_pos = x
 
 slider_TopSpeed = 0.1
 
-ofset = 100
+ofset = 150
 
 
 var _langth = image_xscale

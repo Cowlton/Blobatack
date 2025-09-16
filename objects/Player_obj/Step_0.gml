@@ -102,6 +102,8 @@ if place_meeting(x,y+vsp,groundObjects){
 		instance_create_layer(x,y+20,layer,Partical_OBJdown)
 		instance_create_layer(x,y+20,layer,Partical_OBJdown)
 		instance_create_layer(x,y+20,layer,Partical_OBJdown)
+		
+
 	
 
 	

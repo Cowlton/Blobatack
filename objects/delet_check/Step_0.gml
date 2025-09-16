@@ -7,6 +7,8 @@ if isVisable = true{
 		
 		if gamepad_button_check_pressed(global.GamePad,gp_face2) {
 			if salected = 2{
+			Select.UIint = 1;
+			EraseProgress.IsSelecded = false
 			DeleteData()
 			isVisable = false
 			}
@@ -53,6 +55,8 @@ if isVisable = true{
 if keyboard_check_pressed(vk_space){
 	cooldown = 20
 		if salected = 2{
+			Select.UIint = 1;
+			EraseProgress.IsSelecded = false
 			DeleteData()
 			isVisable = false
 			}

@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"Deth",
+  "%Name":"Deth_font",
   "AntiAlias":1,
   "applyKerning":0,
   "ascender":28,
@@ -117,7 +117,7 @@
   "last":0,
   "lineHeight":33,
   "maintainGms1Font":false,
-  "name":"Deth",
+  "name":"Deth_font",
   "parent":{
     "name":"Fonts",
     "path":"folders/Fonts.yy",
@@ -134,7 +134,10 @@
   "sdfSpread":8,
   "size":24.0,
   "styleName":"Regular",
-  "textureGroupId":null,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
   "TTFName":"",
   "usesSDF":false,
 }

@@ -3,7 +3,7 @@ Bspeed = 10
 
 
 volume = Volume_Sound
-erase = EraseProgress
+
 music = Volume_Music
 
 
@@ -16,5 +16,5 @@ cooldown = 0
 pause = false
 canSwitch = true
 chosen = volume
-UIelements = [music,volume,erase];
+UIelements = [music,volume];
 Pres = 0

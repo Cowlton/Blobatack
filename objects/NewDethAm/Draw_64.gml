@@ -20,7 +20,7 @@ if instance_exists(o_transition){
 }
 
 draw_set_color(c_green)
-draw_set_font(LEVEL);
+draw_set_font(Level_font);
 
 draw_text_transformed(x,y - 100,"New Deaths ",1,1,0 )
 

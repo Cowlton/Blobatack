@@ -2,7 +2,7 @@
 draw_sprite_ext(slider_spr,image_index,Slider_pos,y,faceing,1,0,c_white,1);
 draw_sprite_ext(sowrd_spr,sowrd_index,Slider_pos,y,faceing,1,0,c_white,1);
 
-draw_set_font(Deth)
+draw_set_font(Volume_font)
 
 var text = "Sound effects:" + string(global.Volume_num) + "%";
 var text_width = string_width(text);
