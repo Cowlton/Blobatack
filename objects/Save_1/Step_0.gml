@@ -1,6 +1,6 @@
-if IsSelecded = true{
+if IsSelecded = true && Select.UIint == 1{
 	image_index = 1
-	MyGuy.image_alpha = 1;
+
 var _maxpads = gamepad_get_device_count();
 for (var i = 0; i < _maxpads; i++)
 {
@@ -13,46 +13,45 @@ for (var i = 0; i < _maxpads; i++)
 			global.Load_data = 1
 			load_game()
 			Select.UIint = 2;
-			IsSelecded = false;
+			//IsSelecded = false;
 
 			}
 		}
-	}
-	
+	}	
 }
-}else{
-	image_index = 0
-	MyGuy.image_alpha = 1;
-}
-
 // Checks keybord imput
 
 if keyboard_check_pressed(vk_space){
-		if IsSelecded{
-	
-			global.Room = 1
-			global.DethAm = 0
-			global.Load_data = 1
-			load_game()
-			Select.UIint = 2;
-			IsSelecded = false;
-
-		}
-}
-
-if keyboard_check_pressed(ord("D")){
-	if IsSelecded{
 		global.Room = 1
 		global.DethAm = 0
 		global.Load_data = 1
 		load_game()
 		Select.UIint = 2;
-		IsSelecded = false;
+		//IsSelecded = false;
+}
+
+if keyboard_check_pressed(ord("D")){
+	global.Room = 1
+	global.DethAm = 0
+	global.Load_data = 1
+	load_game()
+	Select.UIint = 2;
+	//IsSelecded = false;
 		
-	}
-		
+}
+
+}else if (Select.UIint == 2 && IsSelecded){
+	
+	image_index = 2
+
+	
+}else{
+image_index = 0
 
 }
+
+
+
 
 
 if file_exists("save_file_1") {

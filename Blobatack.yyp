@@ -354,6 +354,7 @@
     {"id":{"name":"Grass_sp","path":"sprites/Grass_sp/Grass_sp.yy",},},
     {"id":{"name":"grasyground_spr","path":"sprites/grasyground_spr/grasyground_spr.yy",},},
     {"id":{"name":"GrasyGround_spr2","path":"sprites/GrasyGround_spr2/GrasyGround_spr2.yy",},},
+    {"id":{"name":"HandBook","path":"sprites/HandBook/HandBook.yy",},},
     {"id":{"name":"HOME_sp","path":"sprites/HOME_sp/HOME_sp.yy",},},
     {"id":{"name":"Keybord","path":"sprites/Keybord/Keybord.yy",},},
     {"id":{"name":"KeyBox_spr","path":"sprites/KeyBox_spr/KeyBox_spr.yy",},},

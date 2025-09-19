@@ -14,3 +14,5 @@ timeToSpin = 8
 
 // Rotation speed (higher = faster orbit)
 orbit_speed = 2;
+
+orbit_speedup = 0.5
