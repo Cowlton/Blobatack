@@ -20,6 +20,7 @@
   "height":64,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"67c7e71a-af1d-45b9-abb7-603adb199020","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"67c7e71a-af1d-45b9-abb7-603adb199020","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"36d404eb-2a24-4f13-81dc-eb55ad6b98aa","blendMode":0,"displayName":"default","isLocked":false,"name":"36d404eb-2a24-4f13-81dc-eb55ad6b98aa","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"EraseDATA",

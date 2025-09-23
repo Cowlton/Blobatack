@@ -86,8 +86,8 @@ if Chose = true{
 	if last = 1{
 		if instance_exists(Player_obj){
 			Player_obj.My_con = GamePad1
-			if instance_exists(Blobybob_bad_obj) {
-				Blobybob_bad_obj.My_con = GamePad1
+			if instance_exists(CoppyCat_obj) {
+				CoppyCat_obj.My_con = GamePad1
 			}
 			if instance_exists(movingGround) {
 				movingGround.My_con = GamePad1
@@ -101,8 +101,8 @@ if Chose = true{
 		
 		if instance_exists(Player_obj){
 			Player_obj.My_con = GamePad2
-			if instance_exists(Blobybob_bad_obj) {
-				Blobybob_bad_obj.My_con = GamePad2
+			if instance_exists(CoppyCat_obj) {
+				CoppyCat_obj.My_con = GamePad2
 			}
 			if instance_exists(movingGround) {
 				movingGround.My_con = GamePad2

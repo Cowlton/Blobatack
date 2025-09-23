@@ -1,2 +1,2 @@
-MyThing = blobytheglob_obj
+MyThing = Vampier_obj
 canSpawn = false

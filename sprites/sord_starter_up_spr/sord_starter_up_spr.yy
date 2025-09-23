@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Sowrd",
-    "path":"folders/Sprites/Player/Sowrd.yy",
+    "name":"Idle",
+    "path":"folders/Sprites/Player/Sowrd/PlayerSowrds/Idle.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

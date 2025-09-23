@@ -8,7 +8,7 @@ if atacking = true{
 	image_speed = 2
 }
 if sprite_index = sord_starter_hit_right_spr{
-	sprite_index = sord_starter_spr
+	sprite_index = sord_starter_rt_spr
 	image_speed = 2
 }
 if sprite_index = sord_starter_hit_up_spr{

@@ -79,8 +79,8 @@ if place_meeting(x,y+vsp,groundObjects){
 		if instance_exists(Sheald_obj) && canport = true && canport2 = true{
 			with Sheald_obj step +=1
 		}
-		if instance_exists(goste) && canport = true && canport2 = true{
-		with goste step +=1
+		if instance_exists(Gohst_obj) && canport = true && canport2 = true{
+		with Gohst_obj step +=1
 		
 		}
 		if instance_exists(OnAndOffBlock_obj) && canport = true && canport2 = true{
@@ -168,8 +168,8 @@ if place_meeting(x,y-vsp,groundObjects){
 		if instance_exists(Sheald_obj) && canport = true && canport2 = true{
 			with Sheald_obj step +=1
 		}
-		if instance_exists(goste) && canport = true && canport2 = true{
-		with goste step +=1
+		if instance_exists(Gohst_obj) && canport = true && canport2 = true{
+		with Gohst_obj step +=1
 		
 		}
 		if instance_exists(OnAndOffBlock_obj) && canport = true && canport2 = true{
@@ -255,8 +255,8 @@ if place_meeting(x+hsp,y,groundObjects){
 	if instance_exists(Sheald_obj) && canport = true && canport2 = true{
 			with Sheald_obj step +=1
 		}
-	if instance_exists(goste) && canport = true && canport2 = true{
-		with goste step +=1
+	if instance_exists(Gohst_obj) && canport = true && canport2 = true{
+		with Gohst_obj step +=1
 	}
 	if instance_exists(OnAndOffBlock_obj) && canport = true && canport2 = true{
 			with OnAndOffBlock_obj step +=1
@@ -335,8 +335,8 @@ if place_meeting(x-hsp,y,groundObjects){
 	if instance_exists(Sheald_obj) && canport = true && canport2 = true{
 			with Sheald_obj step +=1
 		}
-	if instance_exists(goste) && canport = true && canport2 = true{
-		with goste step +=1
+	if instance_exists(Gohst_obj) && canport = true && canport2 = true{
+		with Gohst_obj step +=1
 	}
 	if instance_exists(OnAndOffBlock_obj) && canport = true && canport2 = true{
 			with OnAndOffBlock_obj step +=1

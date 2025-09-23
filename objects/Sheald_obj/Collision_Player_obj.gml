@@ -1,2 +1,1 @@
-
-with other instance_destroy()
+with other instance_change(Playerdeth,true)

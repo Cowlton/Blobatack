@@ -58,7 +58,7 @@ time = 10
 The_time = time
 
 
-sound_instances = [attack ,Boss_deth, Boss_Talk, BossHITsound,FinishS,kill,KillGoast,KillCopycat,lose,move,Portal_s]
+sound_instances = [attack ,Boss_deth, Boss_Talk, BossHITsound,FinishS,kill,KillGoast,KillCopycat,lose,move,Portal_s,ClickSound]
 
  dragging = false
   alarm_set(0,0)

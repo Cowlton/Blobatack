@@ -11,8 +11,8 @@ if image_index = 0{
 	if instance_exists(Player_obj){
 	Player_obj.On = true
 	}
-	if instance_exists(Blobybob_bad_obj){
-	Blobybob_bad_obj.On = true
+	if instance_exists(CoppyCat_obj){
+	CoppyCat_obj.On = true
 	}
 }
 if image_index = 1 
@@ -20,7 +20,7 @@ if image_index = 1
 	if instance_exists(Player_obj){
 	Player_obj.On = false
 	}
-	if instance_exists(Blobybob_bad_obj){
-	Blobybob_bad_obj.On = false
+	if instance_exists(CoppyCat_obj){
+	CoppyCat_obj.On = false
 	}
 }

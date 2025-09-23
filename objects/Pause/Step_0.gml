@@ -42,11 +42,11 @@ if pause = true && canSwitch = true{
 				Player_obj.vsp = 0
 				Player_obj.hsp = 0
 				}
-				if instance_exists(Blobybob_bad_obj){
-				Blobybob_bad_obj.redy = true;
-				Blobybob_bad_obj.canMove = true;
-				Blobybob_bad_obj.vsp = 0
-				Blobybob_bad_obj.hsp = 0
+				if instance_exists(CoppyCat_obj){
+				CoppyCat_obj.redy = true;
+				CoppyCat_obj.canMove = true;
+				CoppyCat_obj.vsp = 0
+				CoppyCat_obj.hsp = 0
 		
 				}
 			}
@@ -72,11 +72,11 @@ if pause = true && canSwitch = true{
 				Player_obj.vsp = 0
 				Player_obj.hsp = 0
 				}
-				if instance_exists(Blobybob_bad_obj){
-				Blobybob_bad_obj.redy = true;
-				Blobybob_bad_obj.canMove = true;
-				Blobybob_bad_obj.vsp = 0
-				Blobybob_bad_obj.hsp = 0
+				if instance_exists(CoppyCat_obj){
+				CoppyCat_obj.redy = true;
+				CoppyCat_obj.canMove = true;
+				CoppyCat_obj.vsp = 0
+				CoppyCat_obj.hsp = 0
 		
 				}
 			}
@@ -88,11 +88,11 @@ if pause = true && canSwitch = true{
 				if instance_exists(wepon_starter_obj){
 					wepon_starter_obj.redy = false
 				}
-				if instance_exists(Blobybob_bad_obj){
-				Blobybob_bad_obj.canMove = false;
-				Blobybob_bad_obj.redy = false;
-				Blobybob_bad_obj.vsp = 0
-				Blobybob_bad_obj.hsp = 0
+				if instance_exists(CoppyCat_obj){
+				CoppyCat_obj.canMove = false;
+				CoppyCat_obj.redy = false;
+				CoppyCat_obj.vsp = 0
+				CoppyCat_obj.hsp = 0
 				}
 		
 				if instance_exists(Player_obj){
@@ -122,18 +122,18 @@ if (keyboard_check_pressed(ord("P"))) && !instance_exists(StopFromPausing){
 		Player_obj.redy = true;
 		Player_obj.grv = 2
 		}
-		if instance_exists(Blobybob_bad_obj){
-		Blobybob_bad_obj.redy = true;
-		Blobybob_bad_obj.canMove = true;
+		if instance_exists(CoppyCat_obj){
+		CoppyCat_obj.redy = true;
+		CoppyCat_obj.canMove = true;
 		
 		}
 	}
 	if pause = false  && canSwitch = true{
 		pause = true
-		if instance_exists(Blobybob_bad_obj){
-		Blobybob_bad_obj.canMove = false;
-		Blobybob_bad_obj.redy = false;
-		Blobybob_bad_obj.grv = 2
+		if instance_exists(CoppyCat_obj){
+		CoppyCat_obj.canMove = false;
+		CoppyCat_obj.redy = false;
+		CoppyCat_obj.grv = 2
 		}
 		
 		if instance_exists(Player_obj){
@@ -152,11 +152,11 @@ if pause = true{
 		if instance_exists(wepon_starter_obj){
 			wepon_starter_obj.redy = false
 		}
-		if instance_exists(Blobybob_bad_obj){
-			Blobybob_bad_obj.canMove = false;
-			Blobybob_bad_obj.redy = false;
-			Blobybob_bad_obj.vsp = 0
-			Blobybob_bad_obj.hsp = 0
+		if instance_exists(CoppyCat_obj){
+			CoppyCat_obj.canMove = false;
+			CoppyCat_obj.redy = false;
+			CoppyCat_obj.vsp = 0
+			CoppyCat_obj.hsp = 0
 		}
 		
 		if instance_exists(Player_obj){

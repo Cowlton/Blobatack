@@ -11,17 +11,17 @@ Key_Down = keyboard_check_pressed(ord("S")) && canswitch = true
 sidedown = function(){
 image_angle = 0
 //jumping acton
-isGronded = place_meeting(x,y+4,[ground_ob,Blobybob_bad_obj,blobytheglob_obj, movingGround, Player_obj, lazzer_ob, onewayDOWN])
+isGronded = place_meeting(x,y+4,[ground_ob,CoppyCat_obj,Vampier_obj, movingGround, Player_obj, lazzer_ob, onewayDOWN])
 jumpkey = keyboard_check_pressed(ord("q"));
 
-if place_meeting(x,y+vsp,[ground_ob,Blobybob_bad_obj,blobytheglob_obj, movingGround, Player_obj, lazzer_ob, onewayDOWN]){
-		while !place_meeting(x,y+sign(vsp),[ground_ob,Blobybob_bad_obj,blobytheglob_obj, movingGround, Player_obj, lazzer_ob, onewayDOWN]){
+if place_meeting(x,y+vsp,[ground_ob,CoppyCat_obj,Vampier_obj, movingGround, Player_obj, lazzer_ob, onewayDOWN]){
+		while !place_meeting(x,y+sign(vsp),[ground_ob,CoppyCat_obj,Vampier_obj, movingGround, Player_obj, lazzer_ob, onewayDOWN]){
 			y += sign(vsp)
 		}
 		vsp = 0
 	}
-	if place_meeting(x+hsp,y,[ground_ob,Blobybob_bad_obj,blobytheglob_obj, movingGround, Player_obj, lazzer_ob, onewayDOWN]){
-	while(!place_meeting(x+sign(hsp),y,[ground_ob,Blobybob_bad_obj,blobytheglob_obj, movingGround, Player_obj, lazzer_ob, onewayDOWN])){
+	if place_meeting(x+hsp,y,[ground_ob,CoppyCat_obj,Vampier_obj, movingGround, Player_obj, lazzer_ob, onewayDOWN]){
+	while(!place_meeting(x+sign(hsp),y,[ground_ob,CoppyCat_obj,Vampier_obj, movingGround, Player_obj, lazzer_ob, onewayDOWN])){
 		x += sign(hsp)
 	}
 	hsp = 0
@@ -57,16 +57,16 @@ sideup = function(){
 image_angle = 180
 //jumping acton
 
-isGronded = place_meeting(x,y-4,[ground_ob,Blobybob_bad_obj,blobytheglob_obj, movingGround, Player_obj, lazzer_ob, onewayUP])
+isGronded = place_meeting(x,y-4,[ground_ob,CoppyCat_obj,Vampier_obj, movingGround, Player_obj, lazzer_ob, onewayUP])
 jumpkey = keyboard_check_pressed(ord("q"));
-if place_meeting(x,y-vsp,[ground_ob,Blobybob_bad_obj,blobytheglob_obj, movingGround, Player_obj, lazzer_ob, onewayUP]){
-		while !place_meeting(x,y-sign(vsp),[ground_ob,Blobybob_bad_obj,blobytheglob_obj, movingGround, Player_obj, lazzer_ob, onewayUP]){
+if place_meeting(x,y-vsp,[ground_ob,CoppyCat_obj,Vampier_obj, movingGround, Player_obj, lazzer_ob, onewayUP]){
+		while !place_meeting(x,y-sign(vsp),[ground_ob,CoppyCat_obj,Vampier_obj, movingGround, Player_obj, lazzer_ob, onewayUP]){
 			y -= sign(vsp)
 		}
 		vsp = 0
 	}
-	if place_meeting(x+hsp,y,[ground_ob,Blobybob_bad_obj,blobytheglob_obj, movingGround, Player_obj, lazzer_ob, onewayUP]){
-	while(!place_meeting(x+sign(hsp),y,[ground_ob,Blobybob_bad_obj,blobytheglob_obj, movingGround, Player_obj, lazzer_ob, onewayUP])){
+	if place_meeting(x+hsp,y,[ground_ob,CoppyCat_obj,Vampier_obj, movingGround, Player_obj, lazzer_ob, onewayUP]){
+	while(!place_meeting(x+sign(hsp),y,[ground_ob,CoppyCat_obj,Vampier_obj, movingGround, Player_obj, lazzer_ob, onewayUP])){
 		x += sign(hsp)
 	}
 	hsp = 0
@@ -100,18 +100,18 @@ sidelt = function()
 {
 	image_angle = -90
 
-isGronded = place_meeting(x-4,y,[ground_ob,Blobybob_bad_obj,blobytheglob_obj, movingGround, Player_obj, lazzer_ob, onewayLT])
+isGronded = place_meeting(x-4,y,[ground_ob,CoppyCat_obj,Vampier_obj, movingGround, Player_obj, lazzer_ob, onewayLT])
 
 jumpkey = keyboard_check_pressed(ord("q"));
-if place_meeting(x+hsp,y,[ground_ob,Blobybob_bad_obj,blobytheglob_obj, movingGround, Player_obj, lazzer_ob, onewayLT]){
-		while !place_meeting(x +sign(hsp),y,[ground_ob,Blobybob_bad_obj,blobytheglob_obj, movingGround, Player_obj, lazzer_ob, onewayLT]){
+if place_meeting(x+hsp,y,[ground_ob,CoppyCat_obj,Vampier_obj, movingGround, Player_obj, lazzer_ob, onewayLT]){
+		while !place_meeting(x +sign(hsp),y,[ground_ob,CoppyCat_obj,Vampier_obj, movingGround, Player_obj, lazzer_ob, onewayLT]){
 			x += sign(hsp)
 		}
 		
 		hsp = 0
 	}
-	if place_meeting(x,y+vsp,[ground_ob,Blobybob_bad_obj,blobytheglob_obj, movingGround, Player_obj, lazzer_ob, onewayLT]){
-	while(!place_meeting(x,y+sign(vsp),[ground_ob,Blobybob_bad_obj,blobytheglob_obj, movingGround, Player_obj, lazzer_ob, onewayLT])){
+	if place_meeting(x,y+vsp,[ground_ob,CoppyCat_obj,Vampier_obj, movingGround, Player_obj, lazzer_ob, onewayLT]){
+	while(!place_meeting(x,y+sign(vsp),[ground_ob,CoppyCat_obj,Vampier_obj, movingGround, Player_obj, lazzer_ob, onewayLT])){
 		y += sign(vsp)
 	}
 	vsp = 0
@@ -145,17 +145,17 @@ hsp -= grv;
 sidert = function(){
 	image_angle = 90
 
-	isGronded = place_meeting(x+4,y,[ground_ob,Blobybob_bad_obj,blobytheglob_obj, movingGround, Player_obj, onewayRT, lazzer_ob])
+	isGronded = place_meeting(x+4,y,[ground_ob,CoppyCat_obj,Vampier_obj, movingGround, Player_obj, onewayRT, lazzer_ob])
 jumpkey = keyboard_check_pressed(ord("q"));
-if place_meeting(x-hsp,y,[ground_ob,Blobybob_bad_obj,blobytheglob_obj, movingGround, Player_obj, onewayRT, lazzer_ob]){
-		while !place_meeting(x -sign(hsp),y,[ground_ob,Blobybob_bad_obj,blobytheglob_obj, movingGround, Player_obj, onewayRT, lazzer_ob]){
+if place_meeting(x-hsp,y,[ground_ob,CoppyCat_obj,Vampier_obj, movingGround, Player_obj, onewayRT, lazzer_ob]){
+		while !place_meeting(x -sign(hsp),y,[ground_ob,CoppyCat_obj,Vampier_obj, movingGround, Player_obj, onewayRT, lazzer_ob]){
 			x -= sign(hsp)
 		}
 		
 		hsp = 0
 	}
-	if place_meeting(x,y+vsp,[ground_ob,Blobybob_bad_obj,blobytheglob_obj, movingGround, Player_obj, onewayRT, lazzer_ob]){
-	while(!place_meeting(x,y+sign(vsp),[ground_ob,Blobybob_bad_obj,blobytheglob_obj, movingGround, Player_obj, onewayRT, lazzer_ob])){
+	if place_meeting(x,y+vsp,[ground_ob,CoppyCat_obj,Vampier_obj, movingGround, Player_obj, onewayRT, lazzer_ob]){
+	while(!place_meeting(x,y+sign(vsp),[ground_ob,CoppyCat_obj,Vampier_obj, movingGround, Player_obj, onewayRT, lazzer_ob])){
 		y += sign(vsp)
 	}
 	vsp = 0

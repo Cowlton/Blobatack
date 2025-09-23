@@ -1,7 +1,7 @@
 if instance_exists(Blobybob_Begining)
 {
 	if Step = 1 && Gonext = true{
-    with wepon_start atackfaceingleftkey = true
+    with wepon_Begining atackfaceingleftkey = true
 	with Blobybob_Begining sid = 3
 	Gonext = false
 	alarm_set(0,40)
@@ -9,7 +9,7 @@ if instance_exists(Blobybob_Begining)
 	Blobybob_Begining.canport2 = true
 	}
 	if Step = 2 && Gonext = true{
-    with wepon_start atackfaceingdowntkey = true
+    with wepon_Begining atackfaceingdowntkey = true
 	with Blobybob_Begining sid = 1
 	Gonext = false
 	alarm_set(0,40)
@@ -17,7 +17,7 @@ if instance_exists(Blobybob_Begining)
 	Blobybob_Begining.canport2 = true
 	}
 	if Step = 3 && Gonext = true{
-	with wepon_start atackfaceingleftkey = true
+	with wepon_Begining atackfaceingleftkey = true
 	with Blobybob_Begining sid = 3
 	Gonext = false
 	alarm_set(0,40)
@@ -25,7 +25,7 @@ if instance_exists(Blobybob_Begining)
 	Blobybob_Begining.canport2 = true
 	}
 	if Step = 4 && Gonext = true{
-	with wepon_start atackfaceinguptkey = true
+	with wepon_Begining atackfaceinguptkey = true
 	with Blobybob_Begining sid = 2
 	Gonext = false
 	alarm_set(0,40)
@@ -34,7 +34,7 @@ if instance_exists(Blobybob_Begining)
 	}
 	if Step = 5 && Gonext = true{
 	with Blobybob_Begining sid = 3
-	with wepon_start atackfaceingleftkey = true
+	with wepon_Begining atackfaceingleftkey = true
 	Gonext = false
 	alarm_set(0,40)
 	Blobybob_Begining.canport = true
@@ -42,7 +42,7 @@ if instance_exists(Blobybob_Begining)
 	}
 	if Step = 6 && Gonext = true{
 	with Blobybob_Begining sid = 1
-	with wepon_start atackfaceingdowntkey = true
+	with wepon_Begining atackfaceingdowntkey = true
 	Gonext = false
 	alarm_set(0,40)
 	Blobybob_Begining.canport = true
@@ -50,7 +50,7 @@ if instance_exists(Blobybob_Begining)
 	}
 	if Step = 7 && Gonext = true{
 	with Blobybob_Begining sid = 3
-	with wepon_start atackfaceingleftkey = true
+	with wepon_Begining atackfaceingleftkey = true
 	Gonext = false
 	alarm_set(0,40)
 	Blobybob_Begining.canport = true
@@ -58,7 +58,7 @@ if instance_exists(Blobybob_Begining)
 	}
 	if Step = 8 && Gonext = true{
 	with Blobybob_Begining sid = 1
-	with wepon_start atackfaceingdowntkey = true
+	with wepon_Begining atackfaceingdowntkey = true
 	Gonext = false
 	alarm_set(0,40)
 	Blobybob_Begining.canport = true
@@ -66,7 +66,7 @@ if instance_exists(Blobybob_Begining)
 	}
 	if Step = 9 && Gonext = true{
 	with Blobybob_Begining sid = 3
-	with wepon_start atackfaceingleftkey = true
+	with wepon_Begining atackfaceingleftkey = true
 	Gonext = false
 	alarm_set(0,40)
 	Blobybob_Begining.canport = true
@@ -74,7 +74,7 @@ if instance_exists(Blobybob_Begining)
 	}
 	if Step = 10 && Gonext = true{
 	with Blobybob_Begining sid = 2
-	with wepon_start atackfaceinguptkey = true
+	with wepon_Begining atackfaceinguptkey = true
 	Gonext = false
 	alarm_set(0,40)
 	Blobybob_Begining.canport = true
@@ -82,7 +82,7 @@ if instance_exists(Blobybob_Begining)
 	}
 	if Step = 11 && Gonext = true{
 	with Blobybob_Begining sid = 3
-	with wepon_start atackfaceingleftkey = true
+	with wepon_Begining atackfaceingleftkey = true
 	Gonext = false
 	alarm_set(0,40)
 	Blobybob_Begining.canport = true
@@ -90,7 +90,7 @@ if instance_exists(Blobybob_Begining)
 	}
 	if Step = 12 && Gonext = true{
 	with Blobybob_Begining sid = 2
-	with wepon_start atackfaceinguptkey = true
+	with wepon_Begining atackfaceinguptkey = true
 	Gonext = false
 	alarm_set(0,40)
 	Blobybob_Begining.canport = true
@@ -98,7 +98,7 @@ if instance_exists(Blobybob_Begining)
 	}
 	if Step = 13 && Gonext = true{
 	with Blobybob_Begining sid = 3
-	with wepon_start atackfaceingleftkey = true
+	with wepon_Begining atackfaceingleftkey = true
 	Gonext = false
 	alarm_set(0,40)
 	Blobybob_Begining.canport = true
@@ -106,7 +106,7 @@ if instance_exists(Blobybob_Begining)
 	}
 	if Step = 14 && Gonext = true{
 	with Blobybob_Begining sid = 2
-	with wepon_start atackfaceinguptkey = true
+	with wepon_Begining atackfaceinguptkey = true
 	with SpanIT canSpawn = true
 	Gonext = false
 	
@@ -116,7 +116,7 @@ if instance_exists(Blobybob_Begining)
 	}
 	if Step = 15 && Gonext = true{
 	with Blobybob_Begining sid = 4
-	with wepon_start atackfaceingrightkey = true
+	with wepon_Begining atackfaceingrightkey = true
 	Gonext = false
 	alarm_set(0,40)
 	Blobybob_Begining.canport = true
@@ -124,7 +124,7 @@ if instance_exists(Blobybob_Begining)
 	}
 	if Step = 16 && Gonext = true{
 	with Blobybob_Begining sid = 1
-	with wepon_start atackfaceingdowntkey = true
+	with wepon_Begining atackfaceingdowntkey = true
 	Gonext = false
 	alarm_set(0,40)
 	Blobybob_Begining.canport = true
@@ -132,7 +132,7 @@ if instance_exists(Blobybob_Begining)
 	}
 	if Step = 17 && Gonext = true{
 	with Blobybob_Begining sid = 4
-	with wepon_start atackfaceingrightkey = true
+	with wepon_Begining atackfaceingrightkey = true
 	Gonext = false
 	alarm_set(0,40)
 	Blobybob_Begining.canport = true
@@ -140,7 +140,7 @@ if instance_exists(Blobybob_Begining)
 	}
 	if Step = 18 && Gonext = true{
 	with Blobybob_Begining sid = 2
-	with wepon_start atackfaceinguptkey = true
+	with wepon_Begining atackfaceinguptkey = true
 	Gonext = false
 	alarm_set(0,40)
 	Blobybob_Begining.canport = true
@@ -148,7 +148,7 @@ if instance_exists(Blobybob_Begining)
 	}
 	if Step = 19 && Gonext = true{
 	with Blobybob_Begining sid = 4
-	with wepon_start atackfaceingrightkey = true
+	with wepon_Begining atackfaceingrightkey = true
 	Gonext = false
 	alarm_set(0,40)
 	Blobybob_Begining.canport = true
@@ -156,7 +156,7 @@ if instance_exists(Blobybob_Begining)
 	}
 	if Step = 20 && Gonext = true{
 	with Blobybob_Begining sid = 1
-	with wepon_start atackfaceingdowntkey = true
+	with wepon_Begining atackfaceingdowntkey = true
 	Gonext = false
 	alarm_set(0,40)
 	Blobybob_Begining.canport = true
@@ -164,7 +164,7 @@ if instance_exists(Blobybob_Begining)
 	}
 	if Step = 21 && Gonext = true{
 	with Blobybob_Begining sid = 4
-	with wepon_start atackfaceingrightkey = true
+	with wepon_Begining atackfaceingrightkey = true
 	Gonext = false
 	alarm_set(0,40)
 	Blobybob_Begining.canport = true
@@ -172,7 +172,7 @@ if instance_exists(Blobybob_Begining)
 	}
 	if Step = 22 && Gonext = true{
 	with Blobybob_Begining sid = 1
-	with wepon_start atackfaceingdowntkey = true
+	with wepon_Begining atackfaceingdowntkey = true
 	Gonext = false
 	alarm_set(0,40)
 	Blobybob_Begining.canport = true
@@ -180,7 +180,7 @@ if instance_exists(Blobybob_Begining)
 	}
 	if Step = 23 && Gonext = true{
 	with Blobybob_Begining sid = 4
-	with wepon_start atackfaceingrightkey = true
+	with wepon_Begining atackfaceingrightkey = true
 	Gonext = false
 	alarm_set(0,40)
 	Blobybob_Begining.canport = true
@@ -188,7 +188,7 @@ if instance_exists(Blobybob_Begining)
 	}
 	if Step = 24 && Gonext = true{
 	with Blobybob_Begining sid = 2
-	with wepon_start atackfaceinguptkey = true
+	with wepon_Begining atackfaceinguptkey = true
 	Gonext = false
 	alarm_set(0,40)
 	Blobybob_Begining.canport = true
@@ -196,7 +196,7 @@ if instance_exists(Blobybob_Begining)
 	}
 	if Step = 25 && Gonext = true{
 	with Blobybob_Begining sid = 4
-	with wepon_start atackfaceingrightkey = true
+	with wepon_Begining atackfaceingrightkey = true
 	Gonext = false
 	alarm_set(0,40)
 	Blobybob_Begining.canport = true
@@ -204,7 +204,7 @@ if instance_exists(Blobybob_Begining)
 	}
 	if Step = 26 && Gonext = true{
 	with Blobybob_Begining sid = 2
-	with wepon_start atackfaceinguptkey = true
+	with wepon_Begining atackfaceinguptkey = true
 	Gonext = false
 	alarm_set(0,40)
 	Blobybob_Begining.canport = true
@@ -212,7 +212,7 @@ if instance_exists(Blobybob_Begining)
 	}
 	if Step = 27 && Gonext = true{
 	with Blobybob_Begining sid = 4
-	with wepon_start atackfaceingrightkey = true
+	with wepon_Begining atackfaceingrightkey = true
 	Gonext = false
 	alarm_set(0,40)
 	Blobybob_Begining.canport = true
@@ -220,7 +220,7 @@ if instance_exists(Blobybob_Begining)
 	}
 	if Step = 28 && Gonext = true{
 	with Blobybob_Begining sid = 2
-	with wepon_start atackfaceinguptkey = true
+	with wepon_Begining atackfaceinguptkey = true
 	Gonext = false
 	alarm_set(0,40)
 	Blobybob_Begining.canport = true

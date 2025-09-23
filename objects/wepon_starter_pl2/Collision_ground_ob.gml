@@ -5,7 +5,7 @@ if sprite_index = sord_starter_hit_left_spr{
 	instance_create_layer(x-80,y,layer,HitWall)
 }
 if sprite_index = sord_starter_hit_right_spr{
-	sprite_index = sord_starter_spr
+	sprite_index = sord_starter_rt_spr
 	image_speed = 2
 	instance_create_layer(x+80,y,layer,HitWall)
 }

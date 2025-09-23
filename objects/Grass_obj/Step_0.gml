@@ -17,21 +17,21 @@ if place_meeting(x,y,Player_obj){
 	faceing = -1
 	
 	}
-}else if place_meeting(x,y,Blobybob_bad_obj){
+}else if place_meeting(x,y,CoppyCat_obj){
 	
-	if !Blobybob_bad_obj.isGronded  && (Blobybob_bad_obj.sid = 4 || Blobybob_bad_obj.sid = 3)  {
+	if !CoppyCat_obj.isGronded  && (CoppyCat_obj.sid = 4 || CoppyCat_obj.sid = 3)  {
 	
 	active = true
 	
 	}else{
 		active = false
 	}
-	if Blobybob_bad_obj.sid = 4{
+	if CoppyCat_obj.sid = 4{
 	
 	faceing = 1
 	
 	}
-	if Blobybob_bad_obj.sid = 3{
+	if CoppyCat_obj.sid = 3{
 	
 	faceing = -1
 	

@@ -65,8 +65,8 @@ if place_meeting(x,y+vsp,[ground_ob, movingGround, onewayDOWN]){
 		if instance_exists(Sheald_obj) && canport = true && canport2 = true{
 			with Sheald_obj step +=1
 		}
-		if instance_exists(goste) && canport = true && canport2 = true{
-		with goste step +=1
+		if instance_exists(Gohst_obj) && canport = true && canport2 = true{
+		with Gohst_obj step +=1
 		
 		}
 		if canport = true && canport2 = true{
@@ -148,8 +148,8 @@ if place_meeting(x,y-vsp,[ground_ob, movingGround, lazzer_ob, onewayUP]){
 		if instance_exists(Sheald_obj) && canport = true && canport2 = true{
 			with Sheald_obj step +=1
 		}
-		if instance_exists(goste) && canport = true && canport2 = true{
-		with goste step +=1
+		if instance_exists(Gohst_obj) && canport = true && canport2 = true{
+		with Gohst_obj step +=1
 		
 		}
 	if canport = true && canport2 = true{
@@ -231,8 +231,8 @@ if place_meeting(x+hsp,y,[ground_ob, movingGround, lazzer_ob, onewayLT]){
 	if instance_exists(Sheald_obj) && canport = true && canport2 = true{
 			with Sheald_obj step +=1
 		}
-	if instance_exists(goste) && canport = true && canport2 = true{
-		with goste step +=1
+	if instance_exists(Gohst_obj) && canport = true && canport2 = true{
+		with Gohst_obj step +=1
 	}
 		if canport = true && canport2 = true{
 			audio_play_sound(move,10,false)
@@ -307,8 +307,8 @@ if place_meeting(x-hsp,y,[ground_ob, movingGround, onewayRT, lazzer_ob]){
 	if instance_exists(Sheald_obj) && canport = true && canport2 = true{
 			with Sheald_obj step +=1
 		}
-	if instance_exists(goste) && canport = true && canport2 = true{
-		with goste step +=1
+	if instance_exists(Gohst_obj) && canport = true && canport2 = true{
+		with Gohst_obj step +=1
 	}
 		if canport = true && canport2 = true{
 			audio_play_sound(move,10,false)

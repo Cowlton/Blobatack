@@ -1,4 +1,4 @@
-if !instance_exists(blobytheglob_obj) && !instance_exists(Blobybob_bad_obj) && !instance_exists(goste) && !instance_exists(bossfirtEn){
+if !instance_exists(CoppyCat_obj) and !instance_exists(Vampier_obj) and !instance_exists(Gohst_obj) && !instance_exists(Sheald_obj){
 	image_index = 0
 }
 if !audio_is_playing(Music){

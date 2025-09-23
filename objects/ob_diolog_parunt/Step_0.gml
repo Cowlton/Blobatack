@@ -5,9 +5,9 @@ if(showing_dialog == false){
 	if(dialog.count() <=0){
 		instance_destroy();
 		with Player_obj redy = true
-		if instance_exists(Blobybob_bad_obj)
+		if instance_exists(CoppyCat_obj)
 		{
-		with Blobybob_bad_obj redy = true
+		with CoppyCat_obj redy = true
 		}
 		if instance_exists(wepon_starter_obj){
 				wepon_starter_obj.redy = true
@@ -21,9 +21,9 @@ if(showing_dialog == false){
 	if instance_exists(wepon_starter_obj){
 		wepon_starter_obj.redy = false
 	}
-	if instance_exists(Blobybob_bad_obj)
+	if instance_exists(CoppyCat_obj)
 		{
-			with Blobybob_bad_obj redy = false
+			with CoppyCat_obj redy = false
 		}
 if(keyboard_check_released(key_next)){
 	showing_dialog = false;

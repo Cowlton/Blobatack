@@ -29,7 +29,7 @@ if atackfaceingrightkey{
 	
 	atacking = false
 	
-	sprite_index = sord_starter_spr
+	sprite_index = sord_starter_rt_spr
 	lastprest = atackfaceingrightkey
 }
 
@@ -87,7 +87,7 @@ if sprite_index = sord_starter_hit_down_spr{
 }
 }*/
 
-if atackkey && sprite_index = sord_starter_spr && atacking = false{
+if atackkey && sprite_index = sord_starter_rt_spr && atacking = false{
 	
 	atacking = true
 	sprite_index = sord_starter_hit_right_spr

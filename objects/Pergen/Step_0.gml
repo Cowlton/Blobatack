@@ -77,7 +77,7 @@ if ( inst != noone &&  inst != id) {
 		if !place_meeting(x, y, Avoid)
 		{
 		instance_create_layer(x + 32,y + 32,layer,Blocker)
-		instance_create_layer(x+32,y+32,layer,blobytheglob_obj)
+		instance_create_layer(x+32,y+32,layer,Vampier_obj)
 		}
 		Blokstoplace -= 1
 		RandomeMove = irandom_range(3, 4); 
@@ -164,7 +164,7 @@ if (inst != noone) {
 		if !place_meeting(x, y, Avoid)
 		{
 		instance_create_layer(x + 32,y + 32,layer,Blocker)
-		instance_create_layer(x+32,y+32,layer,blobytheglob_obj)
+		instance_create_layer(x+32,y+32,layer,Vampier_obj)
 		}
 		Blokstoplace -= 1
 		RandomeMove = irandom_range(3, 4); 
@@ -257,7 +257,7 @@ if (inst != noone) {
 		if !place_meeting(x, y, Avoid)
 		{
 		instance_create_layer(x + 32,y + 32,layer,Blocker)
-		instance_create_layer(x+32,y+32,layer,blobytheglob_obj)
+		instance_create_layer(x+32,y+32,layer,Vampier_obj)
 		}
 		Blokstoplace -= 1
 		RandomeMove = irandom_range(1, 2); 
@@ -344,7 +344,7 @@ if (inst != noone) {
 		if !place_meeting(x, y, Avoid)
 		{
 		instance_create_layer(x + 32,y + 32,layer,Blocker)
-		instance_create_layer(x+32,y+32,layer,blobytheglob_obj)
+		instance_create_layer(x+32,y+32,layer,Vampier_obj)
 		}
 		Blokstoplace -= 1
 		RandomeMove = irandom_range(1, 2); 

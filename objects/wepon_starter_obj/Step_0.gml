@@ -50,7 +50,7 @@ if atackfaceingrightkey{
 	faceing = -1
 	atacking = false
 	ChangeTO = 1;
-	sprite_index = sord_starter_spr
+	sprite_index = sord_starter_rt_spr
 	//sprite_index = sord_start_frunt_spr
 	//alarm_set(0,5)
 	lastprest = 1
@@ -124,7 +124,7 @@ if sprite_index = sord_starter_hit_down_spr{
 }
 }*/
 
-if atackkey && sprite_index = sord_starter_spr && atacking = false{
+if atackkey && sprite_index = sord_starter_rt_spr && atacking = false{
 	
 	atacking = true
 	sprite_index = sord_starter_hit_right_spr

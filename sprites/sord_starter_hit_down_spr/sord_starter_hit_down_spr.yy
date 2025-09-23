@@ -30,8 +30,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Sowrd",
-    "path":"folders/Sprites/Player/Sowrd.yy",
+    "name":"Hit",
+    "path":"folders/Sprites/Player/Sowrd/PlayerSowrds/Hit.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

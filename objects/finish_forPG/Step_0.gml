@@ -1,4 +1,4 @@
-if !instance_exists(blobytheglob_obj) && !instance_exists(Blobybob_bad_obj) && !instance_exists(goste) && !instance_exists(bossfirtEn){
+if !instance_exists(Vampier_obj) && !instance_exists(CoppyCat_obj) && !instance_exists(Gohst_obj) && !instance_exists(bossfirtEn){
 	image_index = 0
 }
 if !instance_exists(Player_obj) && cancreate = true{

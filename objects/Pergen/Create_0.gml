@@ -36,7 +36,7 @@ min_distance = dist
 closest = Pergen
 Xpos = instance_create_layer(x,y,layer,TestX)
 moveit = 1
-Avoid = [ground_ob,blobytheglob_obj,Player_obj]
+Avoid = [ground_ob,Vampier_obj,Player_obj]
 
 
 

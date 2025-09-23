@@ -5,7 +5,7 @@ if next = 0{
 	with Player_obj{
 		redy = false
 	}
-	with Blobybob_bad_obj{
+	with CoppyCat_obj{
 		redy = false
 	}
 	with movingGround{
@@ -24,7 +24,7 @@ if next = 2{
 	with Player_obj{
 		redy = true
 	}
-	with Blobybob_bad_obj{
+	with CoppyCat_obj{
 		redy = true
 	}
 	with movingGround{

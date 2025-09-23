@@ -36,7 +36,7 @@ sub_image_index -= sub_image_index_inc;
 		with Player_obj{
 			canMove = true;
 		}
-		with Blobybob_bad_obj{
+		with CoppyCat_obj{
 			canMove = true;
 		}
 	}

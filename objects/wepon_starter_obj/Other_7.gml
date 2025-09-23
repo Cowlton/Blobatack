@@ -4,7 +4,7 @@ if sprite_index = sord_starter_hit_left_spr && atacking = true{
 	atacking = false
 }
 if sprite_index = sord_starter_hit_right_spr && atacking = true{
-	sprite_index = sord_starter_spr
+	sprite_index = sord_starter_rt_spr
 	image_speed = 2
 	atacking = false
 }
