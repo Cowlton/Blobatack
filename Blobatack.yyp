@@ -40,7 +40,7 @@
     {"$GMFolder":"","%Name":"Enviornment","folderPath":"folders/Sprites/Enviornment.yy","name":"Enviornment","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Menue","folderPath":"folders/Sprites/Menue.yy","name":"Menue","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Start","folderPath":"folders/Sprites/Menue/Start.yy","name":"Start","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Pause","folderPath":"folders/Sprites/Pause.yy","name":"Pause","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Pause","folderPath":"folders/Sprites/Settings/Pause.yy","name":"Pause","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Player","folderPath":"folders/Sprites/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sowrd","folderPath":"folders/Sprites/Player/Sowrd.yy","name":"Sowrd","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"StartSowrds","folderPath":"folders/Sprites/Player/Sowrd/StartSowrds.yy","name":"StartSowrds","resourceType":"GMFolder","resourceVersion":"2.0",},

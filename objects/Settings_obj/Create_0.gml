@@ -9,5 +9,9 @@ Bpause = false;
 
 IsSelecded = false;
 global.lastroom = 0
-Offset = 100
-Mospeed = 10
+Offset = 300
+Mospeed = 20
+
+wentOut = false;
+
+reset = false;

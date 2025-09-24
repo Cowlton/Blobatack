@@ -10,8 +10,8 @@
   "name":"PauseBACK",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Pause_stuff",
+    "path":"folders/Objects/Pause_stuff.yy",
   },
   "parentObjectId":null,
   "persistent":true,

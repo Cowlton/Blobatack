@@ -12,8 +12,8 @@
   "name":"startObj",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Save_stuff",
+    "path":"folders/Objects/Save_stuff.yy",
   },
   "parentObjectId":null,
   "persistent":false,

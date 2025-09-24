@@ -9,8 +9,12 @@ Bpause = false;
 
 IsSelecded = false;
 
-Offset = 100
-Mospeed = 10
+Offset = 300
+Mospeed = 20
+
+wentOut = false;
+
+reset = false;
 
 
 

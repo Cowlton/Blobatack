@@ -5,9 +5,12 @@ image_yscale = 5
 image_alpha = 0
 
 Bpause = false;
-Offset = 100
-Mospeed = 10
+Offset = 300
+Mospeed = 20
 posX = x
 posY = y
 IsSelecded = false;
 
+wentOut = false;
+
+reset = false;

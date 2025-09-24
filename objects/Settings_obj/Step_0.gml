@@ -1,7 +1,13 @@
 if Bpause == false{
-	if x != posX - Offset{
+	if x <= (posX + Offset) && wentOut == false{
 		
-		x -= Mospeed
+		x += Mospeed
+		reset = false;
+		
+	}else if x >= posX + Offset{
+		wentOut = true
+		reset = true;
+		x = posX - Offset
 	}
 	if image_alpha >= 0{
 		image_alpha -= 0.1
@@ -9,6 +15,13 @@ if Bpause == false{
 
 }
 if Bpause == true{
+	
+	if reset == false{
+		reset = true;
+		x = posX - Offset
+	}
+	
+	wentOut = false;
 	if x != posX{
 		x += Mospeed
 	}

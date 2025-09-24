@@ -27,7 +27,7 @@
   "origin":4,
   "parent":{
     "name":"Pause",
-    "path":"folders/Sprites/Pause.yy",
+    "path":"folders/Sprites/Settings/Pause.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
