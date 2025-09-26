@@ -1,5 +1,6 @@
 //draw_self()
 draw_sprite_ext(slider_spr,image_index,Slider_pos,y,faceing,1,0,c_white,1);
+draw_sprite_ext(headphone_spr,headphone_index,Slider_pos,y,faceing,1,0,c_white,1);
 draw_set_font(Volume_font)
 
 

@@ -1,6 +1,10 @@
 Slider_spr = Slider
 
 slider_spr = Blobybob_spr
+headphone_spr = Headphons
+
+headphone_index = 0;
+
 faceing = 1
 
 Slider_pos = x

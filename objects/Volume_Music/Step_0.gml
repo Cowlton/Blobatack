@@ -19,6 +19,7 @@ if Slider_pos != Target_pos{
 			}else{
 			if dragging = false{
 				slider_spr = Blobybob_spr
+				headphone_spr = Headphons
 			}
 				Slider_pos = Target_pos 
 			}
@@ -36,6 +37,7 @@ if Slider_pos != Target_pos{
 			}else{
 			if dragging = false{
 				slider_spr = Blobybob_spr
+				headphone_spr = Headphons
 			}
 				Slider_pos = Target_pos 
 			}
@@ -46,6 +48,7 @@ if Slider_pos != Target_pos{
 }else{
 	if dragging = false{
 	slider_spr = Blobybob_spr
+	headphone_spr = Headphons
 	}
 
 	Sli_speed = slider_TopSpeed
@@ -79,6 +82,7 @@ Target_pos = mouse_x
 Sli_speed = slider_TopSpeed
 
 slider_spr = PlayerMoveSide
+headphone_spr = Headphons_move
 
 
 if mouse_x >= Slider_pos{
@@ -129,7 +133,8 @@ timeToUpdate = false
 
 if dragging = true{
 	
-	slider_spr = PlayerMoveSide
+	slider_spr = PlayerMoveSide;
+	headphone_spr = Headphons_move;
 			
 }
 
@@ -155,7 +160,8 @@ for (var i = 0; i < _maxpads; i++)
 			if Target_pos <= _end +1{
 			
 			Target_pos += Speed
-			slider_spr = PlayerMoveSide
+			slider_spr = PlayerMoveSide;
+			headphone_spr = Headphons_move;
 			if alarm_off = true{
 			alarm_set(0,2)
 			alarm_off = false
@@ -176,7 +182,8 @@ for (var i = 0; i < _maxpads; i++)
 			if Target_pos >= _begining -1{
 			Target_pos -= Speed
 			faceing =-1
-			slider_spr = PlayerMoveSide
+			slider_spr = PlayerMoveSide;
+			headphone_spr = Headphons_move;
 			if alarm_off = true{
 			alarm_set(0,2)
 			alarm_off = false
@@ -206,7 +213,8 @@ if keyboard_check(ord("D")) &&  cooldown <= 1{
 			if Target_pos <= _end +1{
 			
 			Target_pos += Speed
-			slider_spr = PlayerMoveSide
+			slider_spr = PlayerMoveSide;
+			headphone_spr = Headphons_move;
 			if alarm_off = true{
 			alarm_set(0,2)
 			alarm_off = false
@@ -228,7 +236,8 @@ if keyboard_check(ord("A")) &&  cooldown <= 1{
 			if Target_pos >= _begining -1{
 			Target_pos -= Speed
 			faceing =-1
-			slider_spr = PlayerMoveSide
+			slider_spr = PlayerMoveSide;
+			headphone_spr = Headphons_move;
 			if alarm_off = true{
 			alarm_set(0,2)
 			alarm_off = false
@@ -241,7 +250,11 @@ if keyboard_check(ord("A")) &&  cooldown <= 1{
 if IsSelecded = true{
 Slider_out_obj_music.image_alpha = 1
 
+headphone_index += 0.2
+
 
 }else{
 	Slider_out_obj_music.image_alpha = 0
+	headphone_index = 0
+	headphone_spr = HeadPhoneIdle
 }
