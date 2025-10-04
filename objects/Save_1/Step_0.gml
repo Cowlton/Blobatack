@@ -1,12 +1,10 @@
 if IsSelecded = true && Select.UIint == 1{
 	image_index = 1
 
-var _maxpads = gamepad_get_device_count();
-for (var i = 0; i < _maxpads; i++)
-{
-    if (gamepad_is_connected(i))
+
+    if (gamepad_is_connected(global.GamePad))
     {
-		if gamepad_button_check_pressed(i,gp_face2){
+		if gamepad_button_check_pressed(global.GamePad,gp_face2){
 			if IsSelecded{
 			global.Room = 1
 			global.DethAm = 0
@@ -16,9 +14,11 @@ for (var i = 0; i < _maxpads; i++)
 			//IsSelecded = false;
 
 			}
+			
 		}
+			
+			
 	}	
-}
 // Checks keybord imput
 
 if keyboard_check_pressed(vk_space){
@@ -39,6 +39,15 @@ if keyboard_check_pressed(ord("D")){
 	//IsSelecded = false;
 		
 }
+
+if gamepad_axis_value(global.GamePad,gp_axislh) >= 0.7{			
+	global.Room = 1
+	global.DethAm = 0
+	global.Load_data = 1
+	load_game()
+	Select.UIint = 2;
+}
+
 
 }else if (Select.UIint == 2 && IsSelecded){
 	

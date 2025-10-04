@@ -44,9 +44,14 @@ if keyboard_check_pressed(ord("D")){
 		load_game()
 		Select.UIint = 2;
 		//IsSelecded = false;
+}
 
-		
-
+if gamepad_axis_value(global.GamePad,gp_axislh) >= 0.7{			
+	global.Room = 3
+	global.DethAm = 0
+	global.Load_data = 3
+	load_game()
+	Select.UIint = 2;
 }
 
 }else if (Select.UIint == 2 && IsSelecded){

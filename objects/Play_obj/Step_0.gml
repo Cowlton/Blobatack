@@ -33,6 +33,17 @@ if keyboard_check_pressed(ord("A")){
 		
 
 }
+if gamepad_axis_value(global.GamePad,gp_axislh) <= -0.7{			
+		Select.UIint = 1;
+		IsSelecded = false
+}
+
+if gamepad_button_check_pressed(global.GamePad,gp_face1){
+	
+	Select.UIint = 1;
+	IsSelecded = false
+	
+}
 	
 	
 

@@ -1,6 +1,6 @@
 
 wait -= 1;
-if (keyboard_check_pressed(vk_anykey) || gamepad_button_check_pressed(global.GamePad,gp_face1)) && wait <= 1{
+if (keyboard_check_pressed(vk_anykey) || gamepad_button_check_pressed(global.GamePad,gp_face2)) && wait <= 1{
 	
 	if Started == false{
 	Started = true;

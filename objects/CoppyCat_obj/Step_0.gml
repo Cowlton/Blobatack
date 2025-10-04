@@ -238,8 +238,8 @@ if (gamepad_is_connected(My_con))
 {
 		Key_Right = gamepad_axis_value(My_con, gp_axislh) >= sensi || gamepad_button_check(My_con,gp_padr)
 		Key_Left = gamepad_axis_value(My_con, gp_axislh) <= - sensi|| gamepad_button_check(My_con,gp_padl)
-		Key_Up = gamepad_axis_value(My_con, gp_axislv) >= sensi || gamepad_button_check(My_con,gp_padu)
-		Key_Down = gamepad_axis_value(My_con, gp_axislv) <= -sensi || gamepad_button_check(My_con,gp_padd)
+		Key_Up = gamepad_axis_value(My_con, gp_axislv) >= sensi || gamepad_button_check(My_con,gp_padd)
+		Key_Down = gamepad_axis_value(My_con, gp_axislv) <= -sensi || gamepad_button_check(My_con,gp_padu)
 		
 		
         // do stuff with pad "i"
