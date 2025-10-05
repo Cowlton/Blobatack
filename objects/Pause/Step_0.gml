@@ -230,7 +230,7 @@ if pause = true{
 	chosen.IsSelecded = true
 	
 }
-/*
+
 
 if keyboard_check_pressed(ord("I")){
 	room_goto_next()
@@ -238,6 +238,6 @@ if keyboard_check_pressed(ord("I")){
 if keyboard_check_pressed(ord("U")){
 	room_goto_previous()
 }
-*/
+
 
 
