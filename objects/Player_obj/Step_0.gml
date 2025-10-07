@@ -67,6 +67,8 @@ image_angle = 0
 isGronded = place_meeting(x,y+4,groundObjects)
 jumpkey = keyboard_check_pressed(ord("Q"));
 
+
+
 if place_meeting(x,y+vsp,groundObjects){
 		while !place_meeting(x,y+sign(vsp),groundObjects){
 			y += sign(vsp)
@@ -86,6 +88,7 @@ if place_meeting(x,y+vsp,groundObjects){
 		if instance_exists(OnAndOffBlock_obj) && canport = true && canport2 = true{
 			with OnAndOffBlock_obj step +=1
 	}
+	
 		if canport = true && canport2 = true{
 			audio_play_sound(move,10,false)
 			
@@ -445,6 +448,14 @@ groundObjects = [ground_ob, movingGround, lazzer_ob, oneWay, OnOff, Spike_obj]
 }*/
 	
 }
+
+/*
+if instance_exists(CoppyCat_obj) && canport = false {		
+		with CoppyCat_obj {
+				canswitch = false;
+				
+				}
+	}*/ //this code will stop coppy cat enemys from being controld when you canot move
 
 
 if sid = 1{
