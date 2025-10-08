@@ -271,7 +271,7 @@ if Key_Left && canswitch = true{
 	
 
 }
-groundObjects = [ground_ob,CoppyCat_obj,Vampier_obj, movingGround, onewayLT, lazzer_ob, Sheald_obj, oneWay, OnOff, Spike_obj]
+groundObjects = [ground_ob,CoppyCat_obj,Vampier_obj, movingGround, onewayLT, lazzer_ob, Sheald_obj, ghost,oneWay, OnOff, Spike_obj]
 }
 
 if sid = 1{
@@ -301,4 +301,14 @@ if On = true && !place_meeting(x,y,OnAndOffBlock_obj){
 	OnOff = OnAndOffBlock_obj;
 }else{
 	OnOff = ground_ob
+}
+
+if instance_exists(Gohst_obj){
+
+if Gohst_obj.image_index != 2 && !place_meeting(x,y,Gohst_obj){
+	ghost = Gohst_obj;
+}else{
+	ghost = ground_ob
+}
+
 }

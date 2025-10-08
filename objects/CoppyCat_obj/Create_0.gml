@@ -16,5 +16,6 @@ sensi = 0.5
 On = true;
 
 OnOff = OnAndOffBlock_obj;
+ghost = Gohst_obj;
 oneWay = onewayDOWN
-groundObjects = [ground_ob,CoppyCat_obj,Vampier_obj, movingGround, onewayLT, lazzer_ob, Sheald_obj, oneWay, OnOff, Spike_obj]
+groundObjects = [ground_ob,CoppyCat_obj,Vampier_obj, movingGround, onewayLT, lazzer_ob, Sheald_obj,ghost, oneWay, OnOff, Spike_obj]
