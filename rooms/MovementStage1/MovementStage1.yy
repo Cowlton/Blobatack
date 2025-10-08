@@ -83,8 +83,8 @@
   ],
   "name":"MovementStage1",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"MovementInt",
+    "path":"folders/Rooms/IntroStages/MovementInt.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

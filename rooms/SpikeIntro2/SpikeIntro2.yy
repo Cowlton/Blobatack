@@ -68,8 +68,8 @@
   ],
   "name":"SpikeIntro2",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"SpikeInt",
+    "path":"folders/Rooms/IntroStages/SpikeInt.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

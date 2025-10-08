@@ -2,6 +2,7 @@ if atacking = true{
 
 	with other sholddie = true
 	if other.image_index = 0{
+		HitWallSc();
 		atacking = false
 	if sprite_index = sord_starter_hit_left_spr{
 	sprite_index = sord_starter_spr_lt

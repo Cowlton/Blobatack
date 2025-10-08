@@ -115,8 +115,8 @@
   ],
   "name":"OnOffInt2",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"OnOfInt",
+    "path":"folders/Rooms/IntroStages/OnOfInt.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

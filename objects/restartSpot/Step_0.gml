@@ -1,12 +1,19 @@
-  
-   
+  if hasAdded == false{
+	global.Badcount += 1;
+	hasAdded = true
+   }
    
 if !instance_exists(myGuy){
-restart_obj.image_alpha = 0
+restart_obj.show = false
+
+global.Badcount --;
+
 instance_destroy()	
 
 
 }else{
+
+if global.Badcount != 0{
 
  var count = 0;
     var stored_id = myGuy.id;
@@ -17,12 +24,15 @@ instance_destroy()
             count += 1;
         }  
 
-if count == 0 {
-    ShowRestart = true
-	restart_obj.image_alpha = 1
+
+
+
+if count == (global.Badcount -1) {
+	restart_obj.show = true
 }else{
-	ShowRestart = false;
-	restart_obj.image_alpha = 0
+	restart_obj.show = false
+}
+
 }
 
 }

@@ -97,8 +97,8 @@
   ],
   "name":"ShealdInt",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"SheldInt",
+    "path":"folders/Rooms/IntroStages/SheldInt.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
