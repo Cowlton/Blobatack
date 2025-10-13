@@ -35,3 +35,13 @@ if x <= Player_obj.x{
 	faceing = 1
 }
 }
+
+if instance_exists(Blobybob_Begining){
+
+if x >= Blobybob_Begining.x{
+	faceing = -1
+}
+if x <= Blobybob_Begining.x{
+	faceing = 1
+}
+}

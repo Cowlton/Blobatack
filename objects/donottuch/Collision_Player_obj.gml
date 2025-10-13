@@ -1,1 +1,1 @@
-with other instance_change(Playerdeth,true)
+with other instance_change(Playerdeth,true);

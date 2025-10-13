@@ -26,8 +26,8 @@
   ],
   "name":"TheStartBeforeTheStart",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"StartRooms",
+    "path":"folders/Rooms/StartRooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
