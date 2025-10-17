@@ -11,222 +11,6 @@ if x <= Player_obj.x{
 	faceing = 1
 }
 
-sidedown = function(){
-image_angle = 0
-//jumping acton
-isGronded = place_meeting(x,y+4,groundObjects)
-jumpkey = keyboard_check_pressed(ord("q"));
-
-if place_meeting(x,y+vsp,groundObjects){
-		while !place_meeting(x,y+sign(vsp),groundObjects){
-			y += sign(vsp)
-		}
-		vsp = 0
-	}
-	if place_meeting(x+hsp,y,groundObjects){
-	while(!place_meeting(x+sign(hsp),y,groundObjects)){
-		x += sign(hsp)
-	}
-	hsp = 0
-	}
-	if isGronded{ // when on the grond
-canjump = 10;
-canswitch = true
-if canShake == true{
-if !instance_exists(Shake) && !instance_exists(Shake2) && !instance_exists(Shake3){
-	if instance_exists(Player_obj){
-		instance_create_layer(x,y,layer,Shake)
-	}
-}
-}
-canShake = false;
-
-sprite_index = coppycat
-	
-} else {
-	canShake = true;
-	sprite_index = coppycat_MoveV;
-	canjump -= 1;
-	canswitch = false
-	instance_create_layer(x,y,layer,Trail_obj2);
-}
-
-
-if canjump > 0 && jumpkey{ // normal jump
-	vsp = 0;
-	canjump = 0;
-
-	vsp -= jumphith;
-}
-
-
-y += vsp //comit to move
-if grv < 5{
-vsp += grv;
-}
-}
-
-
-sideup = function(){
-image_angle = 180
-//jumping acton
-
-isGronded = place_meeting(x,y-4,groundObjects)
-jumpkey = keyboard_check_pressed(ord("q"));
-if place_meeting(x,y-vsp,groundObjects){
-		while !place_meeting(x,y-sign(vsp),groundObjects){
-			y -= sign(vsp)
-		}
-		vsp = 0
-	}
-	if place_meeting(x+hsp,y,groundObjects){
-	while(!place_meeting(x+sign(hsp),y,groundObjects)){
-		x += sign(hsp)
-	}
-	hsp = 0
-	}
-	if isGronded{ // when on the grond
-canjump = 10;
-canswitch = true
-if canShake == true{
-if !instance_exists(Shake) && !instance_exists(Shake2) && !instance_exists(Shake3){
-		instance_create_layer(x,y,layer,Shake)
-}
-}
-canShake = false;
-
-	sprite_index = coppycat
-} else {
-	canShake = true;
-	sprite_index = coppycat_MoveV
-	canjump -= 1;
-	canswitch = false
-	instance_create_layer(x,y,layer,Trail_obj2);
-}
-
-
-if canjump > 0 && jumpkey{ // normal jump
-	vsp = 0;
-	canjump = 0;
-	vsp -= jumphith;
-}
-
-y -= vsp //comit to move
-if grv < 5{
-vsp += grv;
-}
-}
-
-
-
-sidelt = function()
-{
-	image_angle = -90
-
-	isGronded = place_meeting(x-4,y,groundObjects)
-
-jumpkey = keyboard_check_pressed(ord("q"));
-if place_meeting(x+hsp,y,groundObjects){
-		while !place_meeting(x +sign(hsp),y,groundObjects){
-			x += sign(hsp)
-		}
-		
-		hsp = 0
-	}
-	if place_meeting(x,y+vsp,groundObjects){
-	while(!place_meeting(x,y+sign(vsp),groundObjects)){
-		y += sign(vsp)
-	}
-	vsp = 0
-	}
-	
-
-	if isGronded{ // when on the grond
-canjump = 10;
-canswitch = true
-if canShake == true{
-if !instance_exists(Shake) && !instance_exists(Shake2) && !instance_exists(Shake3){
-		instance_create_layer(x,y,layer,Shake)
-}
-}
-canShake = false;
-
-sprite_index = coppycat
-	
-} else {
-	canShake = true;
-	sprite_index = coppycat_MoveH
-	canjump -= 1;
-	canswitch = false
-	instance_create_layer(x,y,layer,Trail_obj2);
-}
-
-
-if canjump > 0 && jumpkey{ // normal jump
-	vsp = 0;
-	canjump = 0;
-	hsp += jumphith;
-}
-
-
-x += hsp //comit to move
-if grv < 5{
-hsp -= grv;
-}
-}
-sidert = function(){
-	image_angle = 90
-
-	isGronded = place_meeting(x+4,y,groundObjects)
-jumpkey = keyboard_check_pressed(ord("q"));
-if place_meeting(x-hsp,y,groundObjects){
-		while !place_meeting(x -sign(hsp),y,groundObjects){
-			x -= sign(hsp)
-		}
-		
-		hsp = 0
-	}
-	if place_meeting(x,y+vsp,groundObjects){
-	while(!place_meeting(x,y+sign(vsp),groundObjects)){
-		y += sign(vsp)
-	}
-	vsp = 0
-	}
-	
-
-	if isGronded{ // when on the grond
-canjump = 10;
-canswitch = true
-sprite_index = coppycat
-if canShake == true{
-if !instance_exists(Shake) && !instance_exists(Shake2) && !instance_exists(Shake3){
-		instance_create_layer(x,y,layer,Shake)
-}
-}
-canShake = false;
-	
-} else {
-	canShake = true;
-	sprite_index = coppycat_MoveH
-	canjump -= 1;
-	canswitch = false
-	instance_create_layer(x,y,layer,Trail_obj2);
-}
-
-
-if canjump > 0 && jumpkey{ // normal jump
-	vsp = 0;
-	canjump = 0;
-	hsp += jumphith;
-}
-
-
-x -= hsp //comit to move
-if grv < 5{
-hsp -= grv;
-}
-}
-
 
 Key_Right = keyboard_check(ord("D"))
 Key_Left = keyboard_check(ord("A")) 
@@ -275,18 +59,25 @@ groundObjects = [ground_ob,CoppyCat_obj,Vampier_obj, movingGround, onewayLT, laz
 }
 
 if sid = 1{
-side = sidedown
+	SideDown();
+	//side = sidedown
 }
 if sid = 2{
-	side = sideup
+	
+	SideUp()
+	
+	//side = sideup
 }
 if sid = 3{
-	side = sidelt
+	SideLeft()
+	
+	//side = sidelt
 }
 if sid = 4{
-	side = sidert
+	SideRight()
+	//side = sidert
 }
-side()
+//side()
 }
 }
 

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"SideUp",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"SideUp",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

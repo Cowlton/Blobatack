@@ -42,6 +42,10 @@ if place_meeting(x,y,Player_obj){
 }
 
 if active = true {
-	image_speed  = 1
+	if Pause.pause{
+image_speed = 0;	
+}else{
+image_speed = 1
+}
 }
 

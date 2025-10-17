@@ -1,7 +1,13 @@
 
+
+if Pause.pause{
+image_speed = 0;	
+}else{
+image_speed = 2
+}
+
+
 if redy{
-
-
 
 if instance_exists(MyGuy){
 x = MyGuy.x 
@@ -102,27 +108,6 @@ if delayTime >= 0 && !delay{
 	delayTime -= 1
 }
 
-
-/*
-if atacking = false{
-
-	if sprite_index = sord_starter_hit_left_spr{
-	sprite_index = sord_starter_spr_lt
-	image_speed = 2*
-}
-if sprite_index = sord_starter_hit_right_spr{
-	sprite_index = sord_starter_spr
-	image_speed = 2
-}
-if sprite_index = sord_starter_hit_up_spr{
-	sprite_index = sord_starter_up_spr
-	image_speed = 2
-}
-if sprite_index = sord_starter_hit_down_spr{
-	sprite_index = sord_starter_down_spr
-	image_speed = 2
-}
-}*/
 
 if atackkey && sprite_index = sord_starter_rt_spr && atacking = false{
 	

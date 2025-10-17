@@ -232,6 +232,8 @@ if pause = true{
 }
 
 
+
+
 if keyboard_check_pressed(ord("I")){
 	room_goto_next()
 }

@@ -19,3 +19,15 @@ OnOff = OnAndOffBlock_obj;
 ghost = Gohst_obj;
 oneWay = onewayDOWN
 groundObjects = [ground_ob,CoppyCat_obj,Vampier_obj, movingGround, onewayLT, lazzer_ob, Sheald_obj,ghost, oneWay, OnOff, Spike_obj]
+
+
+// Move Script variables
+
+UpdatePort = false;
+
+IdleSprite = coppycat
+
+
+SideSprite = coppycat_MoveH;
+
+UpSprite = coppycat_MoveV;

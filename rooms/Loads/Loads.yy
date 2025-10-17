@@ -40,8 +40,8 @@
   ],
   "name":"Loads",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Settings",
+    "path":"folders/Rooms/Settings.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
