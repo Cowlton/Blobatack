@@ -6,7 +6,7 @@ MoveAm = 64
 
 RandomeMove = 1;
 
-Blokstoplace = 5;
+Blokstoplace = 7;
 RandomeMove = irandom_range(1, 3);  // Randomly generates 0, 1, or 2
 
 canMoveSide = true;

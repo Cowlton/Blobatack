@@ -101,7 +101,7 @@ if Key_Left && canswitch = true{
 
 }
 
-groundObjects = [ground_ob, movingGround, lazzer_ob, oneWay, OnOff, Spike_obj]
+groundObjects = [ground_ob, movingGround, lazzer_ob, oneWay, OnOff,KeyBlock, Spike_obj]
 }
 /*if redy = false{
 	
@@ -148,4 +148,11 @@ if On = true && !place_meeting(x,y,OnAndOffBlock_obj){
 	OnOff = OnAndOffBlock_obj;
 }else{
 	OnOff = ground_ob
+}
+
+
+if HasKey = true && !place_meeting(x,y,KeyBlockOff_obj){
+	KeyBlock = KeyBlockOff_obj;
+}else if HasKey = false && !place_meeting(x,y,KeyBlockOn_obj){
+	KeyBlock = KeyBlockOn_obj;
 }
