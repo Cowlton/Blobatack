@@ -22,6 +22,10 @@ sprite_index = Blobybob_spr
 On = true;
 OnOff = OnAndOffBlock_obj;
 
+HasKey = false;
+KeyBlock = KeyBlockOn_obj;
+
+
 particleNum = 8;
 
 oneWay = onewayDOWN;
@@ -29,7 +33,7 @@ oneWay = onewayDOWN;
 // Move Script variables
 UpdatePort = true;
 
-groundObjects = [ground_ob, movingGround, lazzer_ob, oneWay, OnOff, Spike_obj]
+groundObjects = [ground_ob, movingGround, lazzer_ob, oneWay, OnOff, KeyBlock,Spike_obj]
 
 
 SideSprite = PlayerMoveSide;

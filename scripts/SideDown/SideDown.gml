@@ -46,8 +46,6 @@ sprite_index = IdleSprite
 	
 } else {
 	sprite_index = UpSprite;
-	
-	canjump -= 1;
 	canswitch = false
 	canport = true
 	instance_create_layer(x,y,layer,Trail_obj);
