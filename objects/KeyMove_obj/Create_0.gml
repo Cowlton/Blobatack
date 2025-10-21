@@ -1,8 +1,10 @@
 myGuy = self;
 
-spd = 20
+spd = 10
 
 randomize();
 
-ofsetSpeedx = random_range(-10,10)
-ofsetSpeedy = random_range(-10,10)
+rotationSpeed = random_range(-7,7)
+
+ofsetSpeedx = random_range(-5,5)
+ofsetSpeedy = random_range(-5,5)
