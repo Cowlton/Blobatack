@@ -151,8 +151,8 @@ if On = true && !place_meeting(x,y,OnAndOffBlock_obj){
 }
 
 
-if HasKey = true && !place_meeting(x,y,KeyBlockOff_obj){
+if HasKey = true && !place_meeting(x,y,KeyBlockOff_obj) && !instance_exists(Key_turn_obj) && !instance_exists(KeyMove_obj){
 	KeyBlock = KeyBlockOff_obj;
-}else if HasKey = false && !place_meeting(x,y,KeyBlockOn_obj){
+}else if HasKey = false && !place_meeting(x,y,KeyBlockOn_obj) && !instance_exists(Key_turn_obj) && !instance_exists(KeyMove_obj){
 	KeyBlock = KeyBlockOn_obj;
 }
