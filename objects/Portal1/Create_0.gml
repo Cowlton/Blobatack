@@ -4,3 +4,7 @@ alarm_set(0 , 0)
 image_index = 0
 spriteTime = 0;
 image_speed = 1;
+
+index = image_index;
+
+hasFixedIndex = false;

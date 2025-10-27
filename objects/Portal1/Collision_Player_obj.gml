@@ -10,9 +10,10 @@ audio_play_sound(Portal_s,9,false)
 }
 canportal1 = false
 
-alarm_set(0 , 10)
+alarm_set(0 , 14)
 
 with Portal2{
 	alarm_set(0 , 10)
+	spriteTime = 6;
 	canportal2 = false
 }

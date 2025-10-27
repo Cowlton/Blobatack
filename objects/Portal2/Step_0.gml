@@ -3,10 +3,23 @@ if (canportal2 = true){
 	
 	spriteTime --;
 	}else{
+		index = image_index;
 		sprite_index = PortalBlock_spr	
 	}
 	
 }else{
-	spriteTime = 10;
-sprite_index = PortalBlock_active_spr
+	if spriteTime > 0 {
+		spriteTime --;
+	
+	}else{
+	
+	sprite_index = PortalBlock_active_spr
+		if hasFixedIndex = false{
+			image_index = index;
+			hasFixedIndex = true;
+			
+		}
+	spriteTime = 11;
+	}
+
 }
