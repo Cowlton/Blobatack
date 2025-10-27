@@ -1,3 +1,6 @@
+
+
+if room != Start{
 if (instance_exists(Player_obj)){
 	
 	if (point_distance(x,y,Player_obj.x,Player_obj.y) <= 100){
@@ -14,4 +17,14 @@ if (instance_exists(Player_obj)){
 	
 }else{
 image_alpha = 0;	
+}
+
+}else{
+image_alpha = 0;	
+}
+
+if instance_exists(AttackInt_obj){
+image_index = 1;	
+}else{
+image_index = 0;	
 }

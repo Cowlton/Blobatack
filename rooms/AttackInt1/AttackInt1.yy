@@ -16,11 +16,13 @@
     {"name":"inst_75BBE2F0_1","path":"rooms/AttackInt1/AttackInt1.yy",},
     {"name":"inst_161908D7","path":"rooms/AttackInt1/AttackInt1.yy",},
     {"name":"inst_48973D4C","path":"rooms/AttackInt1/AttackInt1.yy",},
+    {"name":"inst_24111DD5","path":"rooms/AttackInt1/AttackInt1.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Pause_lr","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_75BBE2F0_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_75BBE2F0_1","objectId":{"name":"CantAme","path":"objects/CantAme/CantAme.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":960.0,"y":384.0,},
+        {"$GMRInstance":"v2","%Name":"inst_24111DD5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_24111DD5","objectId":{"name":"AttackInt_obj","path":"objects/AttackInt_obj/AttackInt_obj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1152.0,"y":256.0,},
       ],"layers":[],"name":"Pause_lr","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_604730C6_1","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_604730C6_1","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.6808511,"scaleY":1.7619047,"spriteId":{"name":"Attack","path":"sprites/Attack/Attack.yy",},"x":672.0,"y":160.0,},
