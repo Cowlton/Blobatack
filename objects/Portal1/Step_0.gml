@@ -1,5 +1,12 @@
 if (canportal1 = true){
-	image_index = 0;
+	if spriteTime > 0{
+	
+	spriteTime --;
+	}else{
+		sprite_index = PortalBlock_spr	
+	}
+	
 }else{
-image_index = 1;
+	spriteTime = 10;
+sprite_index = PortalBlock_active_spr
 }

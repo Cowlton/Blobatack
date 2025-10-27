@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"PortalBlock",
-    "path":"sprites/PortalBlock/PortalBlock.yy",
+    "name":"PortalBlock_spr",
+    "path":"sprites/PortalBlock_spr/PortalBlock_spr.yy",
   },
   "spriteMaskId":null,
   "visible":true,
