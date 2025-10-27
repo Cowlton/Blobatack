@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Settings",
-    "path":"folders/Sprites/Settings.yy",
+    "name":"DeleatCheck",
+    "path":"folders/Sprites/Settings/DeleatCheck.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

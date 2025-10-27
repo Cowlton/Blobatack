@@ -16,13 +16,13 @@ if Pause.pause = false{
 			
 			if gamepad_axis_value(global.GamePad,gp_axislv) >= 0.7  && cooldown <= 1{
 				
-				chosen.IsSelecded = false
+				chosen1.IsSelecded = false
 				Pres += 1
 				cooldown = 20
 				
 			}else if gamepad_axis_value(global.GamePad,gp_axislv) <= -0.7  && cooldown <= 1{
 				
-				chosen.IsSelecded = false
+				chosen1.IsSelecded = false
 				Pres -= 1
 				cooldown = 20
 			
@@ -41,14 +41,14 @@ if Pause.pause = false{
 	
 		if keyboard_check_pressed(ord("S")) || keyboard_check_pressed(vk_down){
 			
-			chosen.IsSelecded = false
+			chosen1.IsSelecded = false
 			Pres += 1
 			cooldown = 20
 		}
 		
 		if keyboard_check_pressed(ord("W")) || keyboard_check_pressed(vk_up){
 			
-			chosen.IsSelecded = false
+			chosen1.IsSelecded = false
 			Pres -= 1
 			cooldown = 20
 		}
@@ -61,14 +61,15 @@ if Pause.pause = false{
 		 Pres = array_length_1d(UIelements)-1
 		}
 			
-		chosen = UIelements[Pres]
-		load = chosen.Name;
-		Deths = chosen.Deth_Text;
-		Levels = chosen.Level_Text;
-		chosen.IsSelecded = true
+		
 			
 	}
 		
+		chosen1 = UIelements[Pres]
+		load = chosen1.Name;
+		Deths = chosen1.Deth_Text;
+		Levels = chosen1.Level_Text;
+		chosen1.IsSelecded = true
 	
 	
 if(UIint == 2){
@@ -80,13 +81,13 @@ if(UIint == 2){
 		
 			if gamepad_axis_value(global.GamePad,gp_axislv) >= 0.7  && cooldown <= 1{
 				
-				chosen.IsSelecded = false
+				chosen2.IsSelecded = false
 				Pres2 += 1
 				cooldown = 20
 				
 			}else if gamepad_axis_value(global.GamePad,gp_axislv) <= -0.7  && cooldown <= 1{
 				
-				chosen.IsSelecded = false
+				chosen2.IsSelecded = false
 				Pres2 -= 1
 				cooldown = 20
 			
@@ -101,14 +102,14 @@ if(UIint == 2){
 	
 		if keyboard_check_pressed(ord("S")) || keyboard_check_pressed(vk_down){
 			
-			chosen.IsSelecded = false
+			chosen2.IsSelecded = false
 			Pres2 += 1
 			cooldown = 20
 		}
 		
 		if keyboard_check_pressed(ord("W")) || keyboard_check_pressed(vk_up){
 			
-			chosen.IsSelecded = false
+			chosen2.IsSelecded = false
 			Pres2 -= 1
 			cooldown = 20
 		}
@@ -121,9 +122,9 @@ if(UIint == 2){
 	 Pres2 = array_length_1d(UIelements2)-1
 	}
 	
-	chosen = UIelements2[Pres2];
+	 chosen2 = UIelements2[Pres2];
 	
-	chosen.IsSelecded = true;
+	chosen2.IsSelecded = true;
 	
 	}
 	

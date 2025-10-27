@@ -65,6 +65,7 @@
     {"$GMFolder":"","%Name":"Idle","folderPath":"folders/Sprites/Player/Sowrd/PlayerSowrds/Idle.yy","name":"Idle","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"StartSowrds","folderPath":"folders/Sprites/Player/Sowrd/StartSowrds.yy","name":"StartSowrds","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Settings","folderPath":"folders/Sprites/Settings.yy","name":"Settings","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"DeleatCheck","folderPath":"folders/Sprites/Settings/DeleatCheck.yy","name":"DeleatCheck","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Pause","folderPath":"folders/Sprites/Settings/Pause.yy","name":"Pause","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Startscreen","folderPath":"folders/Sprites/Startscreen.yy","name":"Startscreen","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Tutorial","folderPath":"folders/Sprites/Tutorial.yy","name":"Tutorial","resourceType":"GMFolder","resourceVersion":"2.0",},

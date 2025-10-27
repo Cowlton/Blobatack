@@ -20,7 +20,8 @@ Levels = "Level"
 
 pause = false
 canSwitch = true
-chosen = volume
+chosen1 = volume
+chosen2 = volume
 UIelements = [Save_1,Save_2,Save_3];
 
 UIelements2 = [Play_obj, EraseProgress];
