@@ -1,4 +1,4 @@
-if image_index == 0{
+if !CanApear{
 	if CanPo = true{
 	if global.Room <= room
 	global.Room +=1

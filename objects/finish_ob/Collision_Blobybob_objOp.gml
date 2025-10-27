@@ -1,4 +1,4 @@
-if image_index == 0{
+if !CanApear{
 	if CanPo = true{
 	if LEVELfind.Room <= room
 	LEVELfind.Room +=1
