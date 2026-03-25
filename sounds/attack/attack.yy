@@ -1,15 +1,17 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v2",
   "%Name":"attack",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":0,
-  "bitRate":8,
+  "channelFormat":0,
   "compression":0,
+  "compressionQuality":0,
   "conversionMode":0,
   "duration":0.191678,
+  "exportDir":"",
   "name":"attack",
   "parent":{
     "name":"Sounds",
@@ -20,6 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":5512,
   "soundFile":"attack.wav",
-  "type":0,
   "volume":0.33,
 }

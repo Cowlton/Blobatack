@@ -61,8 +61,6 @@ image_index = 0
 
 
 
-
-
 if file_exists("save_file_1") {
 	var _file = file_text_open_read("save_file_1");
 	var _json = file_text_read_string(_file)
