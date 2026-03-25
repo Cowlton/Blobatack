@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Sheald",
   "bboxMode":2,
   "bbox_bottom":79,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a79a6fb1-831a-4a1a-9bfd-41553947d1ce","name":"a79a6fb1-831a-4a1a-9bfd-41553947d1ce","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"baae3f6b-2ef3-44a4-9c8a-90e8f8558492","name":"baae3f6b-2ef3-44a4-9c8a-90e8f8558492","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a79a6fb1-831a-4a1a-9bfd-41553947d1ce","name":"a79a6fb1-831a-4a1a-9bfd-41553947d1ce","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"baae3f6b-2ef3-44a4-9c8a-90e8f8558492","name":"baae3f6b-2ef3-44a4-9c8a-90e8f8558492","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

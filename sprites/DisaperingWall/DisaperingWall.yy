@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"DisaperingWall",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"954a16fc-2b7e-454e-af4c-8cc9dd0e4410","name":"954a16fc-2b7e-454e-af4c-8cc9dd0e4410","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"cc6b7908-44d8-406e-8603-9b54e519c51e","name":"cc6b7908-44d8-406e-8603-9b54e519c51e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"954a16fc-2b7e-454e-af4c-8cc9dd0e4410","name":"954a16fc-2b7e-454e-af4c-8cc9dd0e4410","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cc6b7908-44d8-406e-8603-9b54e519c51e","name":"cc6b7908-44d8-406e-8603-9b54e519c51e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

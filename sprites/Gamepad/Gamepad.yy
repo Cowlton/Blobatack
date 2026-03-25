@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Gamepad",
   "bboxMode":0,
   "bbox_bottom":55,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a47c3d8c-a8f2-4db6-b70a-e30dcd1c6c5d","name":"a47c3d8c-a8f2-4db6-b70a-e30dcd1c6c5d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a47c3d8c-a8f2-4db6-b70a-e30dcd1c6c5d","name":"a47c3d8c-a8f2-4db6-b70a-e30dcd1c6c5d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

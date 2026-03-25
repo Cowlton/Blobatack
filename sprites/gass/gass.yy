@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"gass",
   "bboxMode":2,
   "bbox_bottom":63,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"8bf79374-97f8-4b5f-af9c-c6c73b913610","name":"8bf79374-97f8-4b5f-af9c-c6c73b913610","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8bf79374-97f8-4b5f-af9c-c6c73b913610","name":"8bf79374-97f8-4b5f-af9c-c6c73b913610","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -82,6 +82,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":64.0,
+    "seqWidth":80.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

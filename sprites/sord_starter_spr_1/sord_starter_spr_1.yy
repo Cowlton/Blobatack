@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"sord_starter_spr_1",
   "bboxMode":2,
   "bbox_bottom":62,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0a7d52c8-01d9-4f62-a6d4-334b7f74b192","name":"0a7d52c8-01d9-4f62-a6d4-334b7f74b192","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0a7d52c8-01d9-4f62-a6d4-334b7f74b192","name":"0a7d52c8-01d9-4f62-a6d4-334b7f74b192","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Cow",
   "bboxMode":2,
   "bbox_bottom":79,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"3cf5ce80-dfc1-47e2-8430-f3aba46970fc","name":"3cf5ce80-dfc1-47e2-8430-f3aba46970fc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3cf5ce80-dfc1-47e2-8430-f3aba46970fc","name":"3cf5ce80-dfc1-47e2-8430-f3aba46970fc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

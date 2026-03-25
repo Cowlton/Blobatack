@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"KeyBoxOn_spr",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ae082116-a665-4b6e-8206-3e0b54b541dd","name":"ae082116-a665-4b6e-8206-3e0b54b541dd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"0ebbfdd3-d5b5-491f-9b12-e69dcbe3ce53","name":"0ebbfdd3-d5b5-491f-9b12-e69dcbe3ce53","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ae082116-a665-4b6e-8206-3e0b54b541dd","name":"ae082116-a665-4b6e-8206-3e0b54b541dd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0ebbfdd3-d5b5-491f-9b12-e69dcbe3ce53","name":"0ebbfdd3-d5b5-491f-9b12-e69dcbe3ce53","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

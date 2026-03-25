@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"coppycat_MoveV",
   "bboxMode":2,
   "bbox_bottom":71,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f10d64ed-5dc4-4e22-9837-b4c38cdb6c4e","name":"f10d64ed-5dc4-4e22-9837-b4c38cdb6c4e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f10d64ed-5dc4-4e22-9837-b4c38cdb6c4e","name":"f10d64ed-5dc4-4e22-9837-b4c38cdb6c4e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

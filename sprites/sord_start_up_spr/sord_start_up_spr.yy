@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"sord_start_up_spr",
   "bboxMode":0,
   "bbox_bottom":88,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"698c6143-ab35-44e0-aa89-c14b95729b55","name":"698c6143-ab35-44e0-aa89-c14b95729b55","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"698c6143-ab35-44e0-aa89-c14b95729b55","name":"698c6143-ab35-44e0-aa89-c14b95729b55","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

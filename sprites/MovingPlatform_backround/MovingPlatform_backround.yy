@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"MovingPlatform_backround",
   "bboxMode":2,
   "bbox_bottom":62,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"12d8b7cb-a966-4d76-a829-2b0b0093dd17","name":"12d8b7cb-a966-4d76-a829-2b0b0093dd17","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"12d8b7cb-a966-4d76-a829-2b0b0093dd17","name":"12d8b7cb-a966-4d76-a829-2b0b0093dd17","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
