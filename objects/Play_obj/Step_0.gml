@@ -9,7 +9,9 @@ if IsSelecded = true{
 			cooldown = 2
 			if Pause.pause = false{
 				audio_stop_all()
-			room_goto(global.Room + 1)
+				global.worldInt = 0;
+				global.world = 0;
+			room_goto(Worlds)
 			}
 		}
 	}
@@ -22,7 +24,9 @@ if keyboard_check_pressed(vk_space){
 	
 	if Pause.pause = false{		
 		audio_stop_all()
-		room_goto(global.Room + 1)
+		room_goto(Worlds)
+		global.worldInt = 0;
+		global.world = 0;
 	}
 	
 	}

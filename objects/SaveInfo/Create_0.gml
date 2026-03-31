@@ -4,3 +4,8 @@ image_speed = 0
 
 DethsOfsetY = 100
 LevelOfsetY = 50
+
+
+
+global.WorldPoints = [];
+global.LevelPoints = [];
