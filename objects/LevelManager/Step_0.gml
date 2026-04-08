@@ -1,4 +1,7 @@
 
+if (LevelDisplayIndex <= 2.9){
+	LevelDisplayIndex += 0.2;
+}
 
 if(keyboard_check_pressed(vk_left)){
 	faceing = -1;
@@ -13,8 +16,11 @@ if(keyboard_check_pressed(vk_left)){
 }
 
 
-if(keyboard_check_pressed(vk_space)){
+if(keyboard_check_pressed(ord("E"))){
   room_goto(global.LevelPoints[index].objectIndex +1);
+}
+if(keyboard_check(ord("Q"))){
+room_goto(Worlds)	
 }
 
 if (gamepad_is_connected(global.GamePad))
@@ -62,6 +68,7 @@ if(global.LevelPoints[index].x < global.LevelPoints[index-1].x){
 	
 	if(array_length(global.LevelPoints) > index+1){	
 		if (global.LevelPoints[index+1].Locked == false){
+			LevelDisplayIndex = 0;
 			index ++;
 		}else if (global.LevelPoints[index+1].Locked == true){
 			global.LevelPoints[index+1].playAnum = true;
@@ -72,6 +79,7 @@ if(global.LevelPoints[index].x < global.LevelPoints[index-1].x){
 
 if (keyboard_check_pressed(lastkey)){
 	if(0 < index){
+		LevelDisplayIndex = 0;
 		index --;
 	}	
 }
@@ -115,6 +123,7 @@ if (keyboard_check_pressed(nextkey)){
 	
 	if(array_length(global.LevelPoints) > index+1){	
 		if (global.LevelPoints[index+1].Locked == false){
+			LevelDisplayIndex = 0;
 			index ++;
 		}else if (global.LevelPoints[index+1].Locked == true){
 			global.LevelPoints[index+1].playAnum = true;
@@ -125,6 +134,7 @@ if (keyboard_check_pressed(nextkey)){
 
 if (keyboard_check_pressed(lastkey)){
 	if(0 < index){
+		LevelDisplayIndex = 0;
 		index --;
 	}
 	
