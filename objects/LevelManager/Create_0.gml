@@ -2,6 +2,7 @@ sprite = Blobybob_spr;
 sowrdSprite = sord_starter_rt_spr;
 levelDisplaySprite = LevelDisplay;
 
+LevelDisplayIndex = 3;
 
 index = 0;
 

@@ -19,6 +19,7 @@
   "height":210,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"f19cd468-06fe-4957-a4da-d06fda94021d","blendMode":0,"displayName":"Layer 4","isLocked":false,"name":"f19cd468-06fe-4957-a4da-d06fda94021d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"82cba87a-a912-4497-a7b3-3681f1a8ce53","blendMode":0,"displayName":"Layer 3","isLocked":false,"name":"82cba87a-a912-4497-a7b3-3681f1a8ce53","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"c03d651d-01e6-4304-b484-194c65f7f5b4","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"c03d651d-01e6-4304-b484-194c65f7f5b4","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"9cba38d0-1821-493a-a941-82254d1fedfd","blendMode":0,"displayName":"Layer 1 (2)","isLocked":false,"name":"9cba38d0-1821-493a-a941-82254d1fedfd","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -85,7 +86,7 @@
     },
     "name":"World",
     "playback":1,
-    "playbackSpeed":30.0,
+    "playbackSpeed":10.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",

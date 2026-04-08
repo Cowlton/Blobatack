@@ -217,6 +217,13 @@ if keyboard_check_pressed(ord("W")) || keyboard_check_pressed(vk_up){
 }
 
 
+
+
+if(keyboard_check(ord("Q"))){
+room_goto(Worlds)	
+}
+
+
 // moving the salected indicator 
 
 if pause = true{

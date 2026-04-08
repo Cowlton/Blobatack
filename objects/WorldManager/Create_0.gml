@@ -5,7 +5,7 @@ global.world = 0;
 worlds = [9,16,18,15,17,20,7]
 
 world1 = 9;
-world2 = 21;
+world2 = 30;
 world3 = 3;
 world4 = 3;
 world5 = 3;
